@@ -19,7 +19,7 @@ order_id INT PRIMARY KEY,
 customer_id INT NOT NULL,
 product_id INT NOT NULL,
 quantity INT NOT NULL,
-order°date DATE NOT NULL, 
+order_date DATE NOT NULL, 
 FOREIGN KEY (customer_id) REFERENCES customers (customer_id),
 FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
