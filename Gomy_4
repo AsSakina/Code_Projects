@@ -15,11 +15,12 @@ price DECIMAL (20,3) NOT NULL CHECK (price > 0)
 
 
 CREATE TABLE orders (
-order_id INT PRIMARY KEY, 
+order_id INT, 
 customer_id INT NOT NULL,
 product_id INT NOT NULL,
 quantity INT NOT NULL,
 order_date DATE NOT NULL, 
+PRIMARY KEY (order_id),
 FOREIGN KEY (customer_id) REFERENCES customers (customer_id),
 FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
