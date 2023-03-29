@@ -22,7 +22,7 @@ product_id INT NOT NULL,
 CONSTRAINT FK_customerorder FOREIGN KEY (customer_id)
 REFERENCES customer (customer_id),
 CONSTRAINT FK_productsorder FOREIGN KEY (product_id)
-REFERENCES product (product_id)
+REFERENCES products (product_id)
 );
 
 
