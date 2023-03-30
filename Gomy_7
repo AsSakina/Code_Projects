@@ -1,0 +1,43 @@
+Relational Model :
+wine (NumW, Category, Year, Degree)
+
+producer(NumP, FirstName, LastName, Region)
+
+harvest (Quantity, #NumP, #NumW)
+
+
+
+SELECT * FROM producer;
+
+SELECT *
+FROM producer
+ORDER BY lastName ASC;
+
+SELECT *
+FROM producer
+WHERE region = 'Sousse';
+
+SELECT 
+SUM(quantity)
+FROM harvest
+WHERE numW = 12;
+
+
+SELECT category,
+SUM(quantity)
+FROM wine
+INNER JOIN harvest USING (numW)
+GROUP BY category;
+
+SELECT producer.FirstName, producer.LastName
+FROM producer
+INNER JOIN harvest ON producer.NumP = harvest.NumP
+WHERE region = 'Sousse' AND quantity > 300
+GROUP BY producer.FirstName 
+ORDER BY producer.LastName;
+
+SELECT wine.numW
+FROM wine
+INNER JOIN harvest ON wine.numW = harvest.numW
+WHERE wine.degree > 12 AND harvest.numP = 24 ;
+
