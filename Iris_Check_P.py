@@ -103,10 +103,6 @@ st.text(f'Selected: {level_4}'.format(level_4))
 
 # Define a prediction button
 if st.button('Predict'):
-    # Make the prediction
-    features = df[data.feature_names]
-    prediction = RFC.predict(features)
-
     st.text("Your type is {}.".format(y_pred[0]))
 
 
