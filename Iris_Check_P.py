@@ -102,22 +102,11 @@ st.text(f'Selected: {level_4}'.format(level_4))
 # the classifier to predict the type of iris flower.
 
 # Define a prediction button
-#if st.button('Prediction'):
-    # Make the prediction
-    #features = df[data.feature_names]
-    #features = [[sepal_length, sepal_width, petal_length, petal_width]]
-
-    # Display the predicted type of iris flower
-    #st.write(f'Predicted Iris Type: {targ[y_pred[0]]}')
-
-
-# Define a prediction button
 if st.button('Predict'):
     # Make the prediction
     features = df[data.feature_names]
     prediction = RFC.predict(features)
 
-    # print the BMI INDEX
     st.text("Your type is {}.".format(y_pred[0]))
 
 
