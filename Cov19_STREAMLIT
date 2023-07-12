@@ -1,0 +1,280 @@
+import streamlit as st
+import requests
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import json
+
+
+#OUR API
+
+api_url = 'https://api.apify.com/v2/datasets/Wj9NFckFWm5lXAWnt/items?clean=true&format=json'
+response = requests.get(api_url)
+dataset = response.json()
+#dataset
+
+# Extract the data
+region_data = dataset[0]['regionData']
+columns = ['country', 'totalCases', 'newCases', 'totalDeaths', 'newDeaths', 'totalRecovered', 'newRecovered', 'activeCases', 'seriousCritical' ,'casesPerMil', 'deathsPerMil','totalTests','testsPerMil','population']
+
+# Create a DataFrame
+data = pd.DataFrame(region_data, columns=columns)
+
+# Display the DataFrame
+data.head()
+data.info()
+data.describe()
+#Correlation
+cor = data.corr()
+#cor
+
+
+#STREAMLIT
+
+#Title
+st.title("Covid-19 Dataset 🌍")
+#DataFrame
+st.dataframe(data)
+st.write("api_url = 'https://api.apify.com/v2/datasets/Wj9NFckFWm5lXAWnt/items?clean=true&format=json'")
+#Subheader
+st.subheader("Data Manipulation 💡")
+#Text:
+st.text("Correlation")
+st.dataframe(cor)
+
+#Visualize
+vi = sns.heatmap(data.corr())
+#Visualize
+#fig, ax = plt.subplots()
+
+st.subheader("Cases Per Mil Trend 📊")
+fig_1 = plt.figure(figsize=(9,7))
+sns.set_style('whitegrid')
+sns.distplot(data['casesPerMil'])
+st.pyplot(fig_1)
+#vi1 = sns.distplot(data['casesPerMil'])
+
+st.subheader("Correlation : Pairplot 💉")
+
+#Pairplot
+#fig, ax = plt.subplots()
+fig = plt.figure(figsize=(9,7))
+sns.set_style('whitegrid')
+sns.pairplot(data, plot_kws = {'color': '#FFD0D0', 'marker': 's'},
+             diag_kws = {'color': '#D25380'})
+st.pyplot(fig)
+
+#st.pyplot(plt.gcf())
+
+#Display the plot in Streamlit
+#fig = plt.figure(figsize=(9,7))
+#sns.distplot(data['casesPerMil'])
+#st.pyplot(plt.gcf())
+#st.pyplot(vi1)
+
+st.subheader("Cured / Deaths / Confirmed Per Mil 🏥")
+
+statewise = pd.pivot_table(data,values=['deathsPerMil','casesPerMil','testsPerMil'],index='country',aggfunc='max',margins=True)
+st.dataframe(statewise)
+# Plot the heatmap
+
+#Visualize
+#vi = sns.heatmap(data.corr())
+#Visualize
+#fig, ax = plt.subplots()
+
+#vi1 = sns.distplot(data['casesPerMil'])
+st.subheader("Correlation : Heatmap 🔆")
+st.write('Heatmap:')
+fig = plt.figure(figsize=(9,7))
+#fig, ax = plt.subplots()
+sns.heatmap(data.corr())
+st.pyplot(fig)
+
+#create area chart
+fig = px.area(data, x='country', y='deathsPerMil')
+
+
+
+
+st.subheader("Cases / Deaths / Recovered / Tests 💊")
+
+statewise_Tot =pd.pivot_table(data,values=['totalCases','totalDeaths','totalRecovered', 'totalTests'],index='country',aggfunc='max',margins=True)
+st.dataframe(statewise_Tot)
+
+st.subheader("Deaths Per Mil 📉️")
+fig = plt.figure(figsize=(9,7))
+#Case Distribution
+data['deathsPerMil'].plot.line()
+#plt.title('Death Rate Distribution', fontsize=14)
+plt.grid(True)
+plt.show()
+st.pyplot(fig)
+
+
+# Save the plot as a file
+#fig.savefig('heatmap.png')
+#st.write('Heatmap saved as heatmap.png')
+
+#st.pyplot(vi)
+#fig.savefig('heatmap.png')
+#st.write('Heatmap saved as heatmap.png')
+
+st.subheader("Top_10 of Actives Cases 🎯")
+
+df_top_10 = data.groupby(['country'])['activeCases'].max().sort_values(ascending=False).reset_index()
+df_top = df_top_10.nlargest(10,['activeCases'])
+st.dataframe(df_top)
+
+#Relationship between Death and Cases
+
+st.subheader("Relationship between Death and Cases 📍")
+fig = plt.figure(figsize=(9,7))
+N = 247
+x = data['testsPerMil']
+y = data['casesPerMil']
+colors = np.random.rand(N)
+plt.scatter(x, y, c=colors, alpha=0.5)
+plt.show()
+st.pyplot(fig)
+
+
+# Check for missing values
+st.subheader("Missing Values Sum")
+dt = pd.DataFrame(data.isnull().sum())
+st.dataframe(dt)
+
+#Create a histogram to show the distribution of global sales.
+
+#create the histogram
+fig3 = plt.figure(figsize=(9,7))
+fig = px.histogram(data, x='casesPerMil', y = 'country', nbins=50, text_auto=True)
+# Show the chart
+fig.show()
+st.pyplot(fig3)
+
+
+
+#create area chart
+#st.subheader("Deaths in each country 📍")
+#fig = plt.figure(figsize=(9,7))
+#fig1 = px.area(data, x='country', y='deathsPerMil')
+
+#Set axis
+#fig.update_layout(
+    #title='Deaths in each country',
+    #xaxis_title='Country',
+    #yaxis_title='Deaths Per Mil'
+#)
+
+#show chart
+#fig.show()
+#st.pyplot(fig1)
+
+
+#Finding recovery rate and deathrate
+statewise_Tot['Recovered Rate']=statewise_Tot['totalRecovered']*100/statewise_Tot['totalCases']
+statewise_Tot['Deaths Rate'] = statewise_Tot['totalDeaths']*100/statewise_Tot['totalCases']
+statewise_Tot=statewise_Tot.sort_values(by='totalCases',ascending=False)
+statewise_1 = statewise_Tot.style.background_gradient(cmap='cubehelix')
+st.dataframe(statewise_1)
+
+st.subheader("Relationship between Death and Cases 📍")
+fig = plt.figure(figsize=(9,7))
+x = data['country']
+y = data['casesPerMil']
+def plot_pie_charts(x, y, title):
+    # more muted color
+    c = ['lightcoral', 'rosybrown', 'sandybrown', 'navajowhite', 'gold',
+        'khaki', 'lightskyblue', 'turquoise', 'lightslategrey', 'thistle', 'pink']
+    plt.figure(figsize=(20,15))
+    plt.title(title, size=20)
+    plt.pie(y, colors=c,shadow=True)
+    plt.legend(x, loc='best', fontsize=12)
+    plt.show()
+plot_pie_charts(x, y, 'Covid-19 Confirmed Cases per Country')
+st.pyplot(fig)
+
+
+
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.datasets import load_breast_cancer
+from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
+
+from sklearn.impute import SimpleImputer
+
+imp = SimpleImputer(strategy="most_frequent")
+imp.fit_transform(data)
+
+data.isnull().value_counts()
+
+# Check for missing values
+#print(data.isnull().sum())
+
+# Option 1: Remove rows or columns with NaN values
+# Remove rows with NaN values
+df_cleaned = data.dropna(axis=0)
+#df_cleaned
+
+#Split our dataset into training and testing sets
+
+X = df_cleaned.drop(df_cleaned.columns.difference(['population']), axis=1)
+y = df_cleaned['population']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.05, random_state = 0)
+
+
+#so we take that column as y and the rest of the columns as our X variable. test_size = 0.05 specifies only 5% of the
+#whole data is taken as our test set, and 95% as our train set. The random state helps us get the same random split each
+#time.
+
+#Create SVM model
+
+#Instantiate classifier with default hyperparameters
+svc = SVC()
+
+#Fit classifier (model) to training set
+
+svc.fit(X_train, y_train)
+
+#Make predictions on target variable using test set
+y_pred = svc.predict(X_test)
+
+#Compute accuracy
+acc = accuracy_score(y_test, y_pred)
+#Print it out
+print('Model accuracy score with default hyperparameters: {0:0.4f}'.format(acc))
+
+df_cleaned.drop('country', inplace=True, axis=1)
+#Agglomerative Example
+from sklearn.cluster import AgglomerativeClustering #Importing our clustering algorithm : Agglomerative
+
+clust = st.number_input("Enter a number of clusters")
+
+model=AgglomerativeClustering(n_clusters=int(clust), affinity='euclidean', linkage='complete')
+clust_labels=model.fit_predict(df_cleaned)  #Applying agglomerative algorithm with 5 clusters, using euclidean distance as a metric
+agglomerative=pd.DataFrame(clust_labels)
+#agglomerative
+
+if st.button('agglomerative'):
+    st.text("Our agglomerative clusters {}.".format(agglomerative))
+
+#Agglomerative cluster plot
+#Plot containing the clusters.
+#Each colored group represents a cluster.
+
+st.subheader("Agglomerative cluster plot")
+
+import matplotlib.pyplot as plt
+fig =plt.figure(figsize=(9,7))
+ax = fig.add_subplot(111)
+scatter = ax.scatter (df_cleaned['casesPerMil'] , df_cleaned["testsPerMil"] , c= agglomerative[0], s=50)
+ax.set_title("Agglomerative Clutering")
+ax.set_xlabel("Cases Per Mil")
+ax.set_ylabel("Tests Per Mil")
+plt.colorbar(scatter)
+st.pyplot(fig)
