@@ -1,0 +1,56 @@
+import nltk
+import streamlit as st
+import speech_recognition as sr
+import numpy as np
+
+# Charger les réponses à partir du fichier texte
+def load_responses(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        responses = file.readlines()
+    return [response.strip() for response in responses]
+
+# Prétraiter les données (remplacez par votre propre logique)
+def preprocess_data(input_text):
+    processed_text = input_text.lower()  # Exemple : convertir en minuscules
+    return processed_text
+
+# Transcrire la parole en texte
+def transcribe_speech():
+    r = sr.Recognizer()
+    with sr.Microphone() as source:
+        st.write("Dites quelque chose...")
+        audio = r.listen(source)
+
+        try:
+            text = r.recognize_google(audio, language="fr-FR")
+            return text
+        except sr.UnknownValueError:
+            st.write("Désolé, je n'ai pas pu comprendre l'audio.")
+            return ""
+
+# Chatbot
+def chatbot(input_text, responses):
+    processed_text = preprocess_data(input_text)
+    response = np.random.choice(responses)  # Sélectionnez une réponse aléatoire avec numpy
+    return response
+
+# Fonction principale
+def main():
+    st.title("Chatbot avec Reconnaissance Vocale 😄")
+
+    # Charger les réponses à partir du fichier
+    responses = load_responses("\\Users\\hp\\Documents\\chat.txt")
+
+    user_input = st.text_input("Saisissez votre texte ou appuyez sur le bouton microphone et parlez.")
+
+    if st.button("Microphone"):
+        spoken_text = transcribe_speech()
+        user_input = spoken_text
+
+    if user_input:
+        response = chatbot(user_input, responses)
+        st.write("Entrée de l'utilisateur :", user_input)
+        st.write("Réponse du chatbot :", response)
+
+if __name__ == "__main__":
+    main()
