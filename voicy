@@ -15,8 +15,13 @@ class SpeechRecognitionApp:
             self.recognizer_instance = sr.Recognizer()
         elif api_choice == "Microsoft Azure Speech":
             self.recognizer_instance = sr.Recognizer()
-            # Configure for Azure Speech
-        # Add more conditions for other APIs
+        elif api_choice == "Deepgram":
+            self.recognizer_instance = sr.Recognizer()
+        elif api_choice == "Speechbrain":
+            self.recognizer_instance = sr.Recognizer()
+        elif api_choice == "TorchAudio":
+            self.recognizer_instance = sr.Recognizer()
+
 
     def transcribe_speech(self):
         with self.microphone as source:
@@ -41,9 +46,9 @@ class SpeechRecognitionApp:
         # Configure the recognizer to use the chosen language
 
     def run(self):
-        st.title("Speech Recognition App")
+        st.title("Speech Recognition App 🌝")
         api_choice = st.selectbox("Select a speech recognition API:",
-                                  ["Google Speech Recognition", "Microsoft Azure Speech"])
+                                  ["Google Speech Recognition", "Microsoft Azure Speech", "Deepgram", "TorchAudio", "Speechbrain"])
         self.choose_api(api_choice)
 
         self.transcribe_speech()
