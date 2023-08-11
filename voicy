@@ -1,0 +1,61 @@
+import streamlit as st
+import speech_recognition as sr
+
+
+class SpeechRecognitionApp:
+    def __init__(self):
+        self.recognizer = sr.Recognizer()
+        self.microphone = sr.Microphone()
+        self.transcribed_text = ""
+        self.filename = ""
+        self.language = ""
+
+    def choose_api(self, api_choice):
+        if api_choice == "Google Speech Recognition":
+            self.recognizer_instance = sr.Recognizer()
+        elif api_choice == "Microsoft Azure Speech":
+            self.recognizer_instance = sr.Recognizer()
+            # Configure for Azure Speech
+        # Add more conditions for other APIs
+
+    def transcribe_speech(self):
+        with self.microphone as source:
+            st.write("Speak something...")
+            audio = self.recognizer.listen(source)
+
+        try:
+            self.transcribed_text = self.recognizer.recognize_google(audio)
+        except sr.UnknownValueError:
+            st.error("Sorry, could not understand audio.")
+        except sr.RequestError as e:
+            st.error(f"Request to API failed: {e}")
+
+    def save_transcribed_text(self):
+        if self.transcribed_text and self.filename:
+            with open(self.filename, 'w') as file:
+                file.write(self.transcribed_text)
+            st.success(f"Transcribed text saved to {self.filename}")
+
+    def choose_language(self):
+        self.language = st.text_input("Enter the language code (e.g., en-US, fr-FR):")
+        # Configure the recognizer to use the chosen language
+
+    def run(self):
+        st.title("Speech Recognition App")
+        api_choice = st.selectbox("Select a speech recognition API:",
+                                  ["Google Speech Recognition", "Microsoft Azure Speech"])
+        self.choose_api(api_choice)
+
+        self.transcribe_speech()
+        st.write("Transcribed Text:", self.transcribed_text)
+
+        self.filename = st.text_input("Enter the filename to save the text:")
+        self.save_transcribed_text()
+
+        self.choose_language()
+        st.button("Pause / Resume")  # Placeholder for pause/resume button
+
+
+if __name__ == "__main__":
+    app = SpeechRecognitionApp()
+    app.run()
