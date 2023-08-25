@@ -1,0 +1,1001 @@
+Age,Gender,Social level,Employment,Chronic illness,Sedentary lifestyle due to illness,Allergies,Potential diseases caused by a sedentary lifestyle,Degree of risk,country,duration,Price($),Aliment,Nutriments
+18,M,Low,Doctor,Arthritis,Yes,Yes,Osteoporosis,High,Guinea,2 hours,137,Eggs,['Protein']
+54,F,High,Teacher,Diabetes type 2,Yes,Yes,Obesity,Low,Guinea,2 hours,9,Cheese,"['Calcium', 'Protein']"
+51,M,Middle,Teacher,Hypertension,Yes,No,Stroke,Low,Benin,More than 5 hours,134,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+30,F,Middle,Driver,Obesity,Yes,Yes,Arthritis,Medium,Mali,More than 5 hours,29,Eggs,['Protein']
+25,M,Low,Driver,Hypertension,Yes,No,Osteoporosis,Medium,Senegal,More than 5 hours,54,Chocolate,['Sugar']
+71,M,High,Retired,Stroke,No,Yes,Diabetes type 2,Low,Mali,2 hours,75,Eggs,['Protein']
+74,F,Low,Engineer,Asthma,Yes,No,Respiratory problems,High,Guinea-Bissau,More than 5 hours,40,Coconuts,"['Fiber', 'Fatty acids']"
+49,F,High,Developer,Diabetes type 2,Yes,No,Hypertension,Medium,Cape Verde,2 hours,45,Banana,"['Potassium', 'Carbohydrates']"
+9,F,Low,Retired,Arthritis,Yes,Yes,Arthritis,High,Cape Verde,2 hours,66,Bananas,"['Vitamin B6', 'Fiber']"
+43,F,Low,Teacher,Hypertension,No,Yes,Obesity,Low,Gambia,More than 5 hours,96,Lean beef,"['Protein', 'Iron']"
+19,M,Middle,Developer,Asthma,No,Yes,Respiratory problems,Medium,Guinea-Bissau,More than 5 hours,27,Tomatoes,"['Potassium', 'Vitamin C']"
+29,F,Low,Developer,None,No,Yes,Arthritis,Medium,Ivory Cost,2 hours,121,Apple,"['Vitamin C', 'Fiber']"
+36,M,Middle,Retired,Respiratory problems,No,Yes,Arthritis,High,Gambia,More than 5 hours,37,Salmon,"['Protein', 'Omega-3']"
+59,M,High,Engineer,Arthritis,No,Yes,Asthma,High,Benin,More than 5 hours,155,Cheese,"['Calcium', 'Protein']"
+8,F,Middle,Driver,Asthma,Yes,No,None,High,Guinea-Bissau,5 hours,155,Garlic,['Antioxidants']
+58,M,Low,Doctor,Stroke,No,No,None,Low,Togo,More than 5 hours,148,Bread,['Carbohydrates']
+28,M,Low,Teacher,Arthritis,No,Yes,Osteoporosis,Medium,Cape Verde,5 hours,134,Chocolate,['Sugar']
+53,F,Low,Doctor,Asthma,Yes,No,Asthma,High,Sierra Leone,2 hours,23,Bluberries,['Antioxidants']
+66,M,Middle,Driver,Arthritis,Yes,No,None,Medium,Liberia,5 hours,115,Apple,"['Vitamin C', 'Fiber']"
+9,M,Middle,Doctor,Asthma,No,No,Osteoporosis,Low,Nigeria,2 hours,98,Apple,"['Vitamin C', 'Fiber']"
+33,M,High,Doctor,None,Yes,Yes,Hypertension,High,Guinea,More than 5 hours,73,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+43,M,Middle,Engineer,Stroke,Yes,Yes,Osteoporosis,Low,Ghana,5 hours,67,Bananas,"['Vitamin B6', 'Fiber']"
+10,M,Middle,Driver,None,No,Yes,Stroke,Medium,Mali,5 hours,147,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+17,M,Low,Engineer,Asthma,No,Yes,Obesity,High,Niger,More than 5 hours,86,Cheese,"['Calcium', 'Protein']"
+44,F,High,Teacher,Diabetes type 2,No,Yes,None,Medium,Nigeria,2 hours,147,Spinach,"['Iron', 'Fiber']"
+73,F,High,Teacher,Diabetes type 2,Yes,No,Respiratory problems,Medium,Senegal,5 hours,153,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+47,M,High,Retired,None,No,Yes,None,Medium,Senegal,5 hours,69,Apple,"['Vitamin C', 'Fiber']"
+14,F,High,Retired,Asthma,No,No,Osteoporosis,High,Nigeria,5 hours,30,Eggs,['Protein']
+50,F,High,Driver,Asthma,Yes,Yes,Obesity,Low,Ivory Cost,More than 5 hours,78,Bread,['Carbohydrates']
+35,F,High,Engineer,Respiratory problems,Yes,No,Stroke,Low,Burkina Faso,2 hours,168,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+12,M,High,Driver,Osteoporosis,Yes,No,Stroke,Medium,Sierra Leone,More than 5 hours,78,Chicken,['Protein']
+36,M,Low,Doctor,Respiratory problems,No,Yes,Diabetes type 2,Low,Sierra Leone,2 hours,120,Cucumber,['Vitamin K']
+18,F,Low,Teacher,Respiratory problems,Yes,No,Obesity,Low,Guinea,5 hours,19,Chicken,['Protein']
+22,F,Low,Doctor,Obesity,No,No,Hypertension,Low,Guinea,More than 5 hours,35,Chicken,['Protein']
+43,F,Middle,Teacher,Diabetes type 2,Yes,No,Asthma,Low,Benin,5 hours,11,Lean beef,"['Protein', 'Iron']"
+57,F,Low,Developer,None,Yes,Yes,Arthritis,High,Ghana,5 hours,144,Bread,['Carbohydrates']
+5,F,Low,Retired,None,No,No,Osteoporosis,Low,Guinea-Bissau,2 hours,78,Cheese,"['Calcium', 'Protein']"
+40,M,Low,Doctor,Osteoporosis,Yes,No,Obesity,Medium,Sierra Leone,More than 5 hours,83,Eggs,['Protein']
+48,F,Middle,Driver,Stroke,Yes,No,Osteoporosis,High,Gambia,5 hours,46,Chocolate,['Sugar']
+48,M,High,Engineer,Stroke,Yes,No,Obesity,High,Benin,More than 5 hours,149,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+22,F,High,Engineer,None,No,No,Obesity,Medium,Nigeria,More than 5 hours,48,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+63,F,Low,Developer,Diabetes type 2,Yes,Yes,Stroke,Low,Gambia,More than 5 hours,69,Cucumber,['Vitamin K']
+5,M,Middle,Driver,Diabetes type 2,No,Yes,Hypertension,High,Mali,5 hours,129,Carrot,"['Vitamin A', 'Fiber']"
+15,M,Middle,Teacher,Respiratory problems,No,Yes,Stroke,Low,Nigeria,More than 5 hours,112,Salmon,"['Protein', 'Omega-3']"
+72,M,Middle,Driver,Diabetes type 2,No,Yes,None,Low,Senegal,5 hours,2,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+45,M,Low,Driver,Diabetes type 2,No,Yes,Asthma,Medium,Benin,2 hours,146,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+27,M,Low,Developer,Diabetes type 2,No,Yes,Stroke,High,Guinea,2 hours,86,Spinach,"['Iron', 'Fiber']"
+38,M,High,Driver,None,No,Yes,Osteoporosis,Medium,Guinea-Bissau,5 hours,146,Rice,['Carbohydrates']
+28,F,High,Doctor,Hypertension,No,Yes,Hypertension,Low,Guinea,5 hours,97,Bananas,"['Vitamin B6', 'Fiber']"
+37,F,Low,Engineer,Arthritis,No,No,None,Low,Togo,2 hours,145,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+5,F,High,Engineer,None,No,No,Hypertension,Low,Liberia,More than 5 hours,23,Lean beef,"['Protein', 'Iron']"
+74,M,Low,Engineer,Obesity,No,No,Asthma,Low,Ghana,5 hours,160,Lean beef,"['Protein', 'Iron']"
+57,F,High,Teacher,Stroke,No,No,Osteoporosis,Medium,Niger,5 hours,148,Carrot,"['Vitamin A', 'Fiber']"
+14,M,Low,Doctor,None,Yes,No,Diabetes type 2,Medium,Burkina Faso,2 hours,124,Chocolate,['Sugar']
+40,F,High,Developer,Stroke,Yes,No,Diabetes type 2,Low,Guinea-Bissau,2 hours,37,Bread,['Carbohydrates']
+72,M,Low,Doctor,Osteoporosis,Yes,Yes,Asthma,Low,Gambia,5 hours,5,Spinach,"['Iron', 'Fiber']"
+22,M,High,Developer,Respiratory problems,No,Yes,Hypertension,Medium,Burkina Faso,2 hours,133,Apple,"['Vitamin C', 'Fiber']"
+36,F,Middle,Teacher,None,No,Yes,Respiratory problems,High,Niger,2 hours,123,Cheese,"['Calcium', 'Protein']"
+49,M,Low,Doctor,Arthritis,Yes,Yes,Stroke,Medium,Sierra Leone,5 hours,24,Garlic,['Antioxidants']
+55,F,Middle,Developer,Stroke,No,No,Arthritis,High,Gambia,More than 5 hours,129,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+51,F,High,Doctor,Respiratory problems,No,No,None,Low,Liberia,5 hours,44,Apple,"['Vitamin C', 'Fiber']"
+46,F,Middle,Developer,Hypertension,No,No,Hypertension,Medium,Guinea-Bissau,More than 5 hours,56,Bananas,"['Vitamin B6', 'Fiber']"
+65,M,High,Engineer,None,Yes,Yes,Stroke,High,Togo,5 hours,21,Salmon,"['Protein', 'Omega-3']"
+69,M,High,Developer,None,Yes,No,Asthma,Low,Ivory Cost,2 hours,104,Banana,"['Potassium', 'Carbohydrates']"
+65,M,High,Doctor,Respiratory problems,Yes,Yes,Obesity,High,Guinea,More than 5 hours,144,Carrot,"['Vitamin A', 'Fiber']"
+20,F,Middle,Driver,Diabetes type 2,No,Yes,None,Medium,Liberia,2 hours,89,Banana,"['Potassium', 'Carbohydrates']"
+65,F,Low,Teacher,Obesity,Yes,No,Diabetes type 2,Low,Senegal,2 hours,120,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+57,F,High,Doctor,Diabetes type 2,Yes,No,Stroke,High,Ghana,2 hours,45,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+35,M,Low,Engineer,Asthma,No,Yes,Stroke,High,Niger,5 hours,159,Banana,"['Potassium', 'Carbohydrates']"
+31,F,Low,Doctor,Stroke,Yes,Yes,Diabetes type 2,High,Gambia,2 hours,169,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+34,M,Low,Driver,Obesity,No,Yes,Arthritis,High,Guinea,2 hours,12,Carrot,"['Vitamin A', 'Fiber']"
+5,M,Middle,Engineer,Asthma,Yes,No,Stroke,Medium,Ghana,More than 5 hours,163,Bluberries,['Antioxidants']
+41,M,Middle,Engineer,Stroke,No,No,Hypertension,Medium,Togo,More than 5 hours,144,Eggs,['Protein']
+13,M,Middle,Driver,Obesity,No,Yes,Stroke,Medium,Togo,2 hours,54,Apple,"['Vitamin C', 'Fiber']"
+40,F,High,Retired,Hypertension,No,Yes,None,Medium,Cape Verde,5 hours,148,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+52,F,Low,Engineer,None,No,Yes,Asthma,Medium,Benin,More than 5 hours,25,Banana,"['Potassium', 'Carbohydrates']"
+16,M,Low,Driver,Arthritis,Yes,No,Stroke,High,Sierra Leone,2 hours,3,Bluberries,['Antioxidants']
+39,F,High,Engineer,Hypertension,No,Yes,Hypertension,Medium,Ghana,More than 5 hours,136,Bananas,"['Vitamin B6', 'Fiber']"
+37,F,High,Engineer,None,No,Yes,Asthma,High,Niger,2 hours,152,Spinach,"['Iron', 'Fiber']"
+22,M,High,Developer,Asthma,Yes,Yes,Osteoporosis,Low,Nigeria,5 hours,105,Rice,['Carbohydrates']
+57,M,Middle,Developer,Stroke,No,Yes,Stroke,High,Gambia,More than 5 hours,127,Eggs,['Protein']
+37,F,High,Doctor,Hypertension,Yes,Yes,Respiratory problems,High,Senegal,More than 5 hours,70,Garlic,['Antioxidants']
+39,M,High,Retired,Diabetes type 2,No,No,None,High,Mali,2 hours,38,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+49,F,Low,Developer,Obesity,No,No,Asthma,High,Burkina Faso,2 hours,95,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+39,M,Low,Teacher,Asthma,No,Yes,Respiratory problems,Medium,Cape Verde,2 hours,69,Chocolate,['Sugar']
+68,F,Low,Teacher,Osteoporosis,Yes,No,Stroke,High,Burkina Faso,More than 5 hours,67,Spinach,"['Iron', 'Fiber']"
+45,M,High,Retired,Asthma,No,Yes,Arthritis,High,Benin,5 hours,101,Salmon,"['Protein', 'Omega-3']"
+25,M,High,Teacher,Obesity,No,Yes,Diabetes type 2,High,Senegal,2 hours,134,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+27,M,Middle,Driver,Hypertension,No,Yes,Stroke,Low,Togo,2 hours,104,Chicken,['Protein']
+56,M,Middle,Engineer,Respiratory problems,No,No,Stroke,Low,Guinea,2 hours,156,Bananas,"['Vitamin B6', 'Fiber']"
+42,M,High,Doctor,Hypertension,Yes,Yes,Arthritis,High,Liberia,5 hours,122,Spinach,"['Iron', 'Fiber']"
+52,M,Low,Retired,Obesity,Yes,No,Osteoporosis,Low,Ivory Cost,2 hours,116,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+16,F,Low,Developer,Obesity,No,Yes,Hypertension,High,Guinea,2 hours,50,Carrot,"['Vitamin A', 'Fiber']"
+26,M,High,Teacher,Osteoporosis,Yes,No,Asthma,Low,Ivory Cost,More than 5 hours,118,Bread,['Carbohydrates']
+33,F,Middle,Developer,Respiratory problems,No,Yes,Respiratory problems,Low,Cape Verde,More than 5 hours,15,Tomatoes,"['Potassium', 'Vitamin C']"
+73,M,Low,Doctor,Stroke,No,No,Respiratory problems,High,Gambia,More than 5 hours,9,Spinach,"['Iron', 'Fiber']"
+38,F,High,Retired,Respiratory problems,No,Yes,Arthritis,Low,Benin,2 hours,132,Spinach,"['Iron', 'Fiber']"
+62,F,High,Retired,Respiratory problems,No,Yes,Obesity,Medium,Senegal,More than 5 hours,108,Lean beef,"['Protein', 'Iron']"
+65,F,Low,Engineer,Hypertension,Yes,Yes,Osteoporosis,Low,Ivory Cost,2 hours,57,Banana,"['Potassium', 'Carbohydrates']"
+32,M,Middle,Retired,Osteoporosis,Yes,Yes,Obesity,High,Benin,2 hours,22,Apple,"['Vitamin C', 'Fiber']"
+42,M,High,Retired,Stroke,Yes,No,Hypertension,Low,Togo,More than 5 hours,143,Cheese,"['Calcium', 'Protein']"
+38,M,Low,Teacher,Arthritis,No,No,Arthritis,Low,Ivory Cost,5 hours,66,Rice,['Carbohydrates']
+62,F,Middle,Developer,None,No,No,Obesity,Low,Guinea-Bissau,More than 5 hours,120,Chicken,['Protein']
+23,M,High,Driver,Stroke,Yes,No,None,Medium,Mali,More than 5 hours,8,Eggs,['Protein']
+66,F,High,Doctor,Respiratory problems,No,No,Respiratory problems,Low,Sierra Leone,2 hours,10,Bananas,"['Vitamin B6', 'Fiber']"
+31,F,Middle,Engineer,Arthritis,No,Yes,Arthritis,Medium,Gambia,2 hours,151,Tomatoes,"['Potassium', 'Vitamin C']"
+52,F,High,Engineer,Asthma,Yes,No,Osteoporosis,High,Niger,More than 5 hours,27,Lean beef,"['Protein', 'Iron']"
+11,M,Middle,Driver,Respiratory problems,No,Yes,Obesity,High,Togo,5 hours,54,Tomatoes,"['Potassium', 'Vitamin C']"
+33,F,Low,Developer,Hypertension,No,No,Asthma,Low,Burkina Faso,More than 5 hours,69,Cucumber,['Vitamin K']
+75,F,Middle,Teacher,Osteoporosis,No,No,None,High,Guinea-Bissau,5 hours,56,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+24,F,Middle,Driver,Diabetes type 2,No,Yes,Respiratory problems,Low,Ivory Cost,5 hours,3,Tomatoes,"['Potassium', 'Vitamin C']"
+33,F,Low,Retired,Hypertension,Yes,No,Asthma,Medium,Guinea,2 hours,110,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+37,M,High,Doctor,Stroke,No,No,None,Low,Gambia,2 hours,41,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+64,M,Low,Doctor,Diabetes type 2,No,Yes,Stroke,Medium,Senegal,2 hours,75,Carrot,"['Vitamin A', 'Fiber']"
+55,F,High,Developer,Arthritis,No,Yes,Diabetes type 2,Low,Guinea,More than 5 hours,120,Bread,['Carbohydrates']
+30,M,Low,Developer,Diabetes type 2,No,Yes,Stroke,Medium,Nigeria,More than 5 hours,98,Bread,['Carbohydrates']
+59,F,High,Developer,Asthma,Yes,No,Stroke,Low,Guinea,More than 5 hours,10,Spinach,"['Iron', 'Fiber']"
+38,M,Low,Teacher,Obesity,Yes,Yes,Hypertension,High,Nigeria,2 hours,174,Carrot,"['Vitamin A', 'Fiber']"
+47,F,Low,Doctor,Asthma,Yes,Yes,Arthritis,Medium,Mali,More than 5 hours,34,Chicken,['Protein']
+7,F,High,Driver,None,Yes,No,Diabetes type 2,Low,Burkina Faso,2 hours,168,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+75,M,Low,Driver,None,Yes,Yes,Arthritis,Medium,Guinea,2 hours,111,Bluberries,['Antioxidants']
+8,F,Middle,Developer,Arthritis,No,Yes,Asthma,Medium,Liberia,2 hours,157,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+35,M,High,Developer,None,Yes,Yes,Arthritis,Low,Ghana,More than 5 hours,108,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+58,M,High,Doctor,None,No,No,None,Low,Senegal,5 hours,168,Salmon,"['Protein', 'Omega-3']"
+69,F,High,Retired,Osteoporosis,No,Yes,None,Medium,Mali,2 hours,78,Bluberries,['Antioxidants']
+21,M,Middle,Engineer,Osteoporosis,Yes,Yes,Hypertension,High,Guinea,5 hours,128,Tomatoes,"['Potassium', 'Vitamin C']"
+50,M,Low,Driver,None,Yes,No,None,High,Togo,2 hours,127,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+65,F,Low,Engineer,Osteoporosis,Yes,No,Diabetes type 2,Medium,Nigeria,2 hours,159,Bread,['Carbohydrates']
+70,F,High,Developer,Hypertension,Yes,No,Obesity,Medium,Burkina Faso,2 hours,107,Lean beef,"['Protein', 'Iron']"
+38,M,Middle,Developer,Arthritis,Yes,No,Obesity,High,Guinea-Bissau,2 hours,104,Cheese,"['Calcium', 'Protein']"
+58,F,Middle,Driver,Obesity,Yes,Yes,Osteoporosis,Low,Liberia,More than 5 hours,9,Coconuts,"['Fiber', 'Fatty acids']"
+61,F,Middle,Retired,Obesity,Yes,No,Stroke,High,Benin,More than 5 hours,22,Cheese,"['Calcium', 'Protein']"
+23,F,Low,Retired,Osteoporosis,No,Yes,Asthma,Medium,Ivory Cost,5 hours,119,Carrot,"['Vitamin A', 'Fiber']"
+29,M,Middle,Doctor,Diabetes type 2,Yes,No,Hypertension,Medium,Mali,2 hours,167,Cucumber,['Vitamin K']
+72,F,High,Developer,None,Yes,No,Hypertension,High,Cape Verde,2 hours,93,Cucumber,['Vitamin K']
+13,M,Low,Doctor,Diabetes type 2,Yes,No,Asthma,Medium,Niger,5 hours,98,Spinach,"['Iron', 'Fiber']"
+33,M,High,Developer,Diabetes type 2,Yes,No,Stroke,High,Guinea-Bissau,2 hours,146,Coconuts,"['Fiber', 'Fatty acids']"
+51,M,High,Teacher,Obesity,No,No,Stroke,Medium,Mali,2 hours,112,Bluberries,['Antioxidants']
+52,M,High,Developer,None,No,Yes,Diabetes type 2,Medium,Senegal,More than 5 hours,102,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+26,F,Low,Driver,Arthritis,Yes,Yes,Asthma,High,Benin,5 hours,70,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+58,F,High,Driver,Asthma,Yes,Yes,Obesity,High,Niger,More than 5 hours,74,Tomatoes,"['Potassium', 'Vitamin C']"
+68,F,Low,Developer,Asthma,Yes,No,Diabetes type 2,Low,Liberia,2 hours,91,Lean beef,"['Protein', 'Iron']"
+40,F,High,Doctor,Diabetes type 2,Yes,Yes,Arthritis,Medium,Burkina Faso,More than 5 hours,130,Carrot,"['Vitamin A', 'Fiber']"
+73,M,High,Engineer,Respiratory problems,Yes,No,Obesity,Medium,Togo,More than 5 hours,35,Lean beef,"['Protein', 'Iron']"
+13,F,Low,Engineer,None,No,Yes,Obesity,Medium,Nigeria,5 hours,59,Spinach,"['Iron', 'Fiber']"
+34,M,Middle,Developer,Asthma,No,No,None,Low,Sierra Leone,5 hours,28,Bananas,"['Vitamin B6', 'Fiber']"
+23,F,Middle,Retired,Osteoporosis,Yes,Yes,Osteoporosis,High,Nigeria,2 hours,43,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+16,F,Low,Doctor,Asthma,No,Yes,None,Medium,Togo,More than 5 hours,46,Cucumber,['Vitamin K']
+52,F,High,Teacher,None,Yes,No,Arthritis,High,Benin,More than 5 hours,91,Apple,"['Vitamin C', 'Fiber']"
+5,F,Low,Teacher,Osteoporosis,No,Yes,Hypertension,High,Liberia,2 hours,131,Coconuts,"['Fiber', 'Fatty acids']"
+37,F,High,Doctor,None,Yes,Yes,Hypertension,Low,Mali,5 hours,110,Rice,['Carbohydrates']
+56,M,High,Driver,Stroke,Yes,Yes,Hypertension,High,Niger,More than 5 hours,158,Apple,"['Vitamin C', 'Fiber']"
+56,F,Middle,Developer,Osteoporosis,Yes,No,Obesity,Low,Benin,More than 5 hours,77,Eggs,['Protein']
+7,M,Low,Teacher,Stroke,Yes,Yes,Arthritis,Low,Senegal,2 hours,125,Spinach,"['Iron', 'Fiber']"
+45,F,Low,Engineer,Asthma,Yes,No,Respiratory problems,Low,Mali,2 hours,159,Coconuts,"['Fiber', 'Fatty acids']"
+8,F,Middle,Teacher,Asthma,No,No,Osteoporosis,Low,Niger,More than 5 hours,123,Bread,['Carbohydrates']
+11,F,Low,Developer,Diabetes type 2,Yes,No,None,High,Guinea-Bissau,2 hours,127,Chocolate,['Sugar']
+69,M,High,Driver,Respiratory problems,Yes,Yes,Respiratory problems,High,Sierra Leone,2 hours,61,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+5,F,Low,Engineer,Arthritis,No,No,Diabetes type 2,Medium,Benin,2 hours,161,Bluberries,['Antioxidants']
+8,M,High,Teacher,Osteoporosis,Yes,Yes,Respiratory problems,Medium,Senegal,5 hours,140,Tomatoes,"['Potassium', 'Vitamin C']"
+33,M,Low,Doctor,Diabetes type 2,Yes,Yes,Stroke,Medium,Gambia,More than 5 hours,69,Salmon,"['Protein', 'Omega-3']"
+58,F,High,Engineer,Asthma,Yes,Yes,Asthma,High,Togo,2 hours,97,Cheese,"['Calcium', 'Protein']"
+21,M,Low,Developer,Arthritis,No,No,None,Low,Nigeria,More than 5 hours,61,Bananas,"['Vitamin B6', 'Fiber']"
+42,M,Middle,Engineer,Asthma,Yes,Yes,Hypertension,High,Liberia,5 hours,149,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+9,F,Middle,Driver,Osteoporosis,No,Yes,Hypertension,Medium,Guinea,More than 5 hours,136,Eggs,['Protein']
+48,F,High,Developer,None,Yes,No,Asthma,Medium,Niger,More than 5 hours,132,Eggs,['Protein']
+63,M,High,Engineer,Asthma,No,No,Respiratory problems,High,Liberia,More than 5 hours,35,Rice,['Carbohydrates']
+34,F,Middle,Driver,None,Yes,Yes,Asthma,Low,Gambia,2 hours,21,Cheese,"['Calcium', 'Protein']"
+46,F,Middle,Teacher,Arthritis,No,Yes,Stroke,Low,Mali,5 hours,15,Lean beef,"['Protein', 'Iron']"
+73,M,Low,Engineer,Arthritis,No,No,Respiratory problems,High,Benin,2 hours,99,Salmon,"['Protein', 'Omega-3']"
+7,F,Middle,Driver,Arthritis,Yes,No,Arthritis,High,Ivory Cost,2 hours,160,Bananas,"['Vitamin B6', 'Fiber']"
+71,F,Middle,Driver,None,Yes,Yes,Osteoporosis,Medium,Nigeria,More than 5 hours,75,Lean beef,"['Protein', 'Iron']"
+42,M,High,Driver,Stroke,Yes,Yes,Respiratory problems,Low,Ivory Cost,More than 5 hours,116,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+11,M,High,Engineer,Asthma,Yes,Yes,Arthritis,Low,Niger,More than 5 hours,163,Carrot,"['Vitamin A', 'Fiber']"
+40,M,High,Driver,Osteoporosis,No,Yes,Stroke,High,Guinea-Bissau,2 hours,31,Bread,['Carbohydrates']
+70,F,Middle,Doctor,Hypertension,Yes,Yes,Obesity,Medium,Benin,5 hours,136,Eggs,['Protein']
+66,F,Low,Driver,Arthritis,Yes,No,Stroke,Low,Mali,2 hours,84,Rice,['Carbohydrates']
+10,M,High,Doctor,None,No,Yes,Respiratory problems,Medium,Mali,5 hours,89,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+44,F,High,Teacher,Obesity,No,No,Asthma,High,Togo,2 hours,158,Tomatoes,"['Potassium', 'Vitamin C']"
+44,M,Low,Doctor,Obesity,No,No,Osteoporosis,Low,Nigeria,2 hours,63,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+36,M,Middle,Doctor,Diabetes type 2,No,No,Obesity,High,Benin,2 hours,90,Lean beef,"['Protein', 'Iron']"
+27,M,Low,Doctor,Asthma,Yes,Yes,Osteoporosis,High,Togo,2 hours,129,Cheese,"['Calcium', 'Protein']"
+47,F,Middle,Teacher,Osteoporosis,No,Yes,Diabetes type 2,High,Sierra Leone,5 hours,57,Coconuts,"['Fiber', 'Fatty acids']"
+8,M,Middle,Retired,Arthritis,No,Yes,Respiratory problems,High,Guinea-Bissau,More than 5 hours,49,Rice,['Carbohydrates']
+17,M,Middle,Retired,Hypertension,Yes,No,Osteoporosis,Medium,Togo,2 hours,91,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+62,M,High,Developer,Osteoporosis,Yes,No,Hypertension,Low,Mali,5 hours,100,Rice,['Carbohydrates']
+28,M,High,Doctor,Diabetes type 2,Yes,Yes,Obesity,Medium,Benin,5 hours,173,Bluberries,['Antioxidants']
+55,M,High,Engineer,Asthma,No,Yes,Asthma,High,Cape Verde,5 hours,147,Bluberries,['Antioxidants']
+60,F,Low,Retired,Osteoporosis,No,Yes,Obesity,High,Guinea-Bissau,More than 5 hours,5,Eggs,['Protein']
+70,F,High,Engineer,Stroke,Yes,Yes,Arthritis,Medium,Mali,5 hours,136,Bluberries,['Antioxidants']
+56,F,Low,Doctor,Osteoporosis,No,Yes,Asthma,Low,Ghana,More than 5 hours,12,Garlic,['Antioxidants']
+37,M,Low,Developer,Osteoporosis,No,No,Arthritis,High,Burkina Faso,5 hours,67,Bananas,"['Vitamin B6', 'Fiber']"
+12,F,Low,Teacher,Diabetes type 2,Yes,No,Osteoporosis,Medium,Liberia,More than 5 hours,88,Cheese,"['Calcium', 'Protein']"
+31,M,High,Doctor,Stroke,Yes,No,Obesity,Medium,Mali,More than 5 hours,14,Bread,['Carbohydrates']
+71,M,Low,Engineer,Obesity,Yes,Yes,None,Low,Burkina Faso,More than 5 hours,36,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+34,F,Low,Engineer,Obesity,Yes,No,Stroke,Low,Mali,More than 5 hours,103,Lean beef,"['Protein', 'Iron']"
+28,M,High,Driver,Hypertension,Yes,No,Diabetes type 2,Medium,Gambia,More than 5 hours,116,Cheese,"['Calcium', 'Protein']"
+30,F,Middle,Doctor,Hypertension,Yes,No,Hypertension,Medium,Ghana,2 hours,162,Apple,"['Vitamin C', 'Fiber']"
+50,F,High,Doctor,Respiratory problems,No,Yes,Asthma,High,Nigeria,5 hours,44,Rice,['Carbohydrates']
+30,M,Middle,Driver,Diabetes type 2,No,No,Respiratory problems,Medium,Togo,More than 5 hours,162,Garlic,['Antioxidants']
+29,F,High,Doctor,Obesity,No,Yes,Osteoporosis,High,Gambia,5 hours,116,Cucumber,['Vitamin K']
+21,F,Middle,Engineer,Obesity,No,No,Hypertension,Medium,Burkina Faso,5 hours,69,Bananas,"['Vitamin B6', 'Fiber']"
+11,F,Middle,Developer,Obesity,No,No,Diabetes type 2,High,Niger,2 hours,17,Bluberries,['Antioxidants']
+28,M,Low,Developer,Respiratory problems,Yes,Yes,Diabetes type 2,Low,Sierra Leone,2 hours,91,Spinach,"['Iron', 'Fiber']"
+28,F,Middle,Doctor,Asthma,No,Yes,Obesity,Medium,Togo,2 hours,23,Banana,"['Potassium', 'Carbohydrates']"
+60,F,High,Developer,Asthma,Yes,No,Asthma,Medium,Ghana,5 hours,166,Coconuts,"['Fiber', 'Fatty acids']"
+72,F,Low,Teacher,Obesity,No,No,Arthritis,High,Cape Verde,5 hours,163,Eggs,['Protein']
+40,F,Low,Driver,None,No,No,Stroke,Low,Benin,2 hours,32,Chocolate,['Sugar']
+71,F,Middle,Teacher,Hypertension,Yes,No,Stroke,Low,Cape Verde,More than 5 hours,56,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+18,M,Low,Teacher,Stroke,Yes,No,Osteoporosis,Low,Guinea,More than 5 hours,159,Bananas,"['Vitamin B6', 'Fiber']"
+8,F,High,Doctor,None,Yes,Yes,Asthma,High,Niger,5 hours,134,Lean beef,"['Protein', 'Iron']"
+32,M,Low,Retired,Obesity,No,Yes,Osteoporosis,High,Gambia,5 hours,137,Bluberries,['Antioxidants']
+56,F,High,Engineer,Arthritis,No,Yes,Osteoporosis,High,Gambia,5 hours,10,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+75,M,Low,Doctor,Obesity,No,No,Hypertension,High,Benin,5 hours,144,Lean beef,"['Protein', 'Iron']"
+67,M,High,Doctor,Respiratory problems,Yes,No,None,Medium,Sierra Leone,5 hours,58,Eggs,['Protein']
+48,M,Low,Retired,Obesity,Yes,Yes,Stroke,Low,Guinea,More than 5 hours,139,Lean beef,"['Protein', 'Iron']"
+9,M,Low,Doctor,Arthritis,Yes,Yes,Respiratory problems,Low,Ghana,More than 5 hours,34,Bananas,"['Vitamin B6', 'Fiber']"
+43,M,High,Teacher,Stroke,Yes,No,Hypertension,Medium,Cape Verde,2 hours,134,Salmon,"['Protein', 'Omega-3']"
+33,M,Low,Doctor,Hypertension,Yes,Yes,Diabetes type 2,High,Niger,2 hours,93,Cucumber,['Vitamin K']
+66,M,Middle,Engineer,Hypertension,No,Yes,Respiratory problems,High,Sierra Leone,2 hours,77,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+32,F,Middle,Teacher,Hypertension,Yes,No,Osteoporosis,Low,Togo,2 hours,22,Salmon,"['Protein', 'Omega-3']"
+12,F,Middle,Teacher,Arthritis,Yes,Yes,Obesity,Medium,Liberia,5 hours,84,Salmon,"['Protein', 'Omega-3']"
+40,M,High,Developer,Respiratory problems,Yes,Yes,None,Medium,Senegal,More than 5 hours,8,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+32,F,High,Teacher,Arthritis,No,No,Obesity,High,Gambia,5 hours,70,Cheese,"['Calcium', 'Protein']"
+49,F,Low,Engineer,Hypertension,No,No,Diabetes type 2,Low,Ivory Cost,More than 5 hours,77,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+26,M,High,Teacher,Arthritis,No,Yes,Obesity,Low,Burkina Faso,2 hours,21,Rice,['Carbohydrates']
+29,F,Middle,Doctor,Diabetes type 2,No,Yes,Arthritis,Low,Senegal,2 hours,30,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+66,M,High,Driver,Stroke,No,Yes,Hypertension,Low,Niger,5 hours,167,Bananas,"['Vitamin B6', 'Fiber']"
+49,F,High,Doctor,Asthma,No,Yes,Diabetes type 2,Medium,Guinea-Bissau,2 hours,37,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+31,M,Middle,Retired,Diabetes type 2,No,Yes,Diabetes type 2,Medium,Togo,2 hours,65,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+44,F,Low,Driver,Diabetes type 2,Yes,Yes,None,Low,Cape Verde,More than 5 hours,102,Rice,['Carbohydrates']
+39,M,Middle,Teacher,Diabetes type 2,No,No,Osteoporosis,Low,Ghana,More than 5 hours,156,Tomatoes,"['Potassium', 'Vitamin C']"
+26,F,Middle,Developer,Respiratory problems,Yes,Yes,Diabetes type 2,High,Nigeria,2 hours,167,Garlic,['Antioxidants']
+58,F,Low,Teacher,Asthma,No,Yes,Obesity,Medium,Guinea-Bissau,2 hours,167,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+43,M,High,Driver,Diabetes type 2,Yes,No,Diabetes type 2,Low,Mali,More than 5 hours,172,Spinach,"['Iron', 'Fiber']"
+73,M,Low,Doctor,Arthritis,Yes,No,Obesity,Low,Guinea-Bissau,2 hours,168,Coconuts,"['Fiber', 'Fatty acids']"
+61,F,Low,Developer,Obesity,Yes,Yes,Arthritis,Medium,Guinea,More than 5 hours,155,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+73,M,High,Retired,Stroke,Yes,No,Obesity,Low,Guinea,2 hours,23,Eggs,['Protein']
+66,M,Low,Doctor,Asthma,Yes,No,Stroke,High,Liberia,2 hours,53,Eggs,['Protein']
+9,M,High,Doctor,Hypertension,Yes,No,Hypertension,Medium,Ivory Cost,5 hours,174,Apple,"['Vitamin C', 'Fiber']"
+73,M,Low,Engineer,Osteoporosis,Yes,Yes,Respiratory problems,Low,Ghana,More than 5 hours,20,Lean beef,"['Protein', 'Iron']"
+30,F,High,Engineer,Asthma,Yes,No,None,High,Burkina Faso,5 hours,32,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+38,F,Middle,Driver,Stroke,Yes,No,Hypertension,High,Benin,More than 5 hours,157,Garlic,['Antioxidants']
+30,F,Middle,Retired,Hypertension,Yes,Yes,Stroke,High,Niger,2 hours,84,Tomatoes,"['Potassium', 'Vitamin C']"
+44,F,Low,Doctor,Obesity,Yes,No,Obesity,High,Guinea,More than 5 hours,82,Spinach,"['Iron', 'Fiber']"
+72,F,Middle,Engineer,None,No,No,Respiratory problems,High,Nigeria,More than 5 hours,7,Lean beef,"['Protein', 'Iron']"
+66,F,Low,Developer,Stroke,No,No,Respiratory problems,High,Mali,More than 5 hours,120,Spinach,"['Iron', 'Fiber']"
+9,F,Low,Driver,Arthritis,Yes,No,Respiratory problems,Medium,Guinea-Bissau,2 hours,37,Banana,"['Potassium', 'Carbohydrates']"
+49,M,Low,Developer,Obesity,No,Yes,Respiratory problems,Low,Ivory Cost,2 hours,88,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+70,F,Low,Developer,None,Yes,Yes,Diabetes type 2,High,Togo,More than 5 hours,164,Apple,"['Vitamin C', 'Fiber']"
+34,M,Middle,Retired,Obesity,Yes,No,Diabetes type 2,Low,Liberia,5 hours,101,Eggs,['Protein']
+62,M,Middle,Driver,Asthma,No,Yes,Obesity,Low,Nigeria,5 hours,26,Banana,"['Potassium', 'Carbohydrates']"
+26,F,Low,Developer,Hypertension,Yes,Yes,Osteoporosis,High,Burkina Faso,More than 5 hours,130,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+34,F,Middle,Doctor,Stroke,Yes,No,Arthritis,High,Ghana,2 hours,24,Bread,['Carbohydrates']
+72,F,Middle,Doctor,Asthma,No,Yes,Obesity,Medium,Benin,2 hours,80,Tomatoes,"['Potassium', 'Vitamin C']"
+41,M,Middle,Driver,Asthma,Yes,No,Stroke,Medium,Gambia,5 hours,75,Bread,['Carbohydrates']
+9,F,Low,Doctor,Respiratory problems,No,Yes,None,High,Gambia,More than 5 hours,163,Rice,['Carbohydrates']
+19,F,High,Engineer,Respiratory problems,Yes,Yes,Obesity,Low,Niger,5 hours,82,Coconuts,"['Fiber', 'Fatty acids']"
+55,M,Middle,Developer,Asthma,No,Yes,Hypertension,Medium,Mali,More than 5 hours,87,Chocolate,['Sugar']
+16,M,Low,Developer,Respiratory problems,No,Yes,Stroke,High,Liberia,2 hours,111,Chicken,['Protein']
+5,F,Middle,Retired,Osteoporosis,Yes,No,None,High,Mali,More than 5 hours,158,Eggs,['Protein']
+45,F,Middle,Engineer,Asthma,Yes,No,Osteoporosis,Low,Togo,More than 5 hours,163,Bananas,"['Vitamin B6', 'Fiber']"
+8,F,Middle,Teacher,Arthritis,Yes,No,Diabetes type 2,Medium,Gambia,2 hours,40,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+15,M,Low,Driver,Stroke,No,No,Respiratory problems,Medium,Cape Verde,5 hours,129,Garlic,['Antioxidants']
+7,F,High,Doctor,Stroke,No,Yes,Stroke,Medium,Cape Verde,More than 5 hours,40,Salmon,"['Protein', 'Omega-3']"
+29,M,High,Driver,Diabetes type 2,Yes,Yes,Obesity,Low,Liberia,5 hours,87,Cheese,"['Calcium', 'Protein']"
+35,F,High,Driver,None,Yes,No,Osteoporosis,Medium,Senegal,5 hours,24,Carrot,"['Vitamin A', 'Fiber']"
+29,M,Middle,Doctor,Hypertension,No,Yes,Osteoporosis,Medium,Cape Verde,5 hours,153,Apple,"['Vitamin C', 'Fiber']"
+36,F,Low,Doctor,Osteoporosis,No,Yes,Osteoporosis,High,Togo,2 hours,83,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+24,F,Low,Doctor,Arthritis,No,Yes,Stroke,Medium,Ghana,5 hours,103,Garlic,['Antioxidants']
+57,M,High,Retired,Osteoporosis,No,No,Stroke,Medium,Gambia,5 hours,81,Chicken,['Protein']
+36,M,High,Doctor,Stroke,Yes,Yes,Obesity,Medium,Guinea,More than 5 hours,49,Banana,"['Potassium', 'Carbohydrates']"
+16,F,Low,Retired,Obesity,Yes,No,Arthritis,Low,Cape Verde,5 hours,128,Bread,['Carbohydrates']
+24,F,Middle,Retired,Diabetes type 2,No,Yes,Arthritis,Medium,Gambia,2 hours,17,Chicken,['Protein']
+32,M,Low,Developer,Osteoporosis,Yes,No,Respiratory problems,High,Liberia,2 hours,144,Garlic,['Antioxidants']
+7,F,Low,Driver,Stroke,Yes,No,Hypertension,Medium,Gambia,5 hours,70,Eggs,['Protein']
+12,F,Middle,Engineer,Hypertension,No,No,Hypertension,Low,Ivory Cost,5 hours,147,Salmon,"['Protein', 'Omega-3']"
+14,M,Low,Retired,Arthritis,No,No,Hypertension,Low,Guinea,2 hours,92,Bluberries,['Antioxidants']
+63,M,High,Doctor,Stroke,No,No,Obesity,High,Guinea,2 hours,81,Rice,['Carbohydrates']
+65,M,Low,Developer,Respiratory problems,Yes,Yes,None,Low,Togo,More than 5 hours,49,Coconuts,"['Fiber', 'Fatty acids']"
+69,F,Middle,Doctor,Arthritis,Yes,Yes,Obesity,Low,Gambia,2 hours,98,Garlic,['Antioxidants']
+21,F,Middle,Developer,Respiratory problems,No,Yes,Stroke,Medium,Benin,5 hours,74,Coconuts,"['Fiber', 'Fatty acids']"
+55,F,High,Driver,Osteoporosis,No,Yes,Obesity,Medium,Niger,2 hours,7,Salmon,"['Protein', 'Omega-3']"
+58,F,Low,Teacher,Osteoporosis,Yes,No,Asthma,Medium,Gambia,5 hours,7,Coconuts,"['Fiber', 'Fatty acids']"
+34,M,High,Doctor,Diabetes type 2,No,No,Arthritis,High,Burkina Faso,5 hours,88,Bananas,"['Vitamin B6', 'Fiber']"
+62,F,High,Doctor,Diabetes type 2,No,No,None,Low,Gambia,2 hours,43,Chocolate,['Sugar']
+57,F,Low,Teacher,Asthma,Yes,Yes,Obesity,Low,Benin,More than 5 hours,140,Cucumber,['Vitamin K']
+36,F,Middle,Doctor,None,Yes,No,Osteoporosis,High,Guinea-Bissau,More than 5 hours,156,Banana,"['Potassium', 'Carbohydrates']"
+57,M,Middle,Engineer,None,Yes,No,Asthma,Low,Cape Verde,2 hours,67,Bluberries,['Antioxidants']
+19,F,High,Retired,Diabetes type 2,No,No,Stroke,Medium,Benin,More than 5 hours,133,Coconuts,"['Fiber', 'Fatty acids']"
+66,M,High,Engineer,Asthma,Yes,Yes,Respiratory problems,Low,Niger,2 hours,78,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+20,F,High,Teacher,Respiratory problems,Yes,No,Respiratory problems,Medium,Gambia,5 hours,31,Carrot,"['Vitamin A', 'Fiber']"
+7,M,High,Developer,Obesity,No,No,Diabetes type 2,Medium,Gambia,More than 5 hours,92,Spinach,"['Iron', 'Fiber']"
+51,F,Middle,Teacher,Osteoporosis,No,No,Arthritis,Medium,Mali,2 hours,103,Garlic,['Antioxidants']
+31,M,Middle,Doctor,Obesity,Yes,No,Osteoporosis,High,Burkina Faso,5 hours,50,Tomatoes,"['Potassium', 'Vitamin C']"
+39,F,High,Doctor,Diabetes type 2,Yes,Yes,Obesity,Medium,Senegal,5 hours,77,Rice,['Carbohydrates']
+28,F,Low,Retired,Diabetes type 2,No,No,Osteoporosis,High,Guinea-Bissau,2 hours,61,Spinach,"['Iron', 'Fiber']"
+15,F,Middle,Developer,Stroke,No,Yes,Respiratory problems,High,Sierra Leone,2 hours,91,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+32,F,High,Teacher,Obesity,Yes,Yes,Hypertension,Low,Senegal,More than 5 hours,61,Garlic,['Antioxidants']
+74,M,Middle,Developer,Arthritis,No,Yes,Osteoporosis,High,Ivory Cost,More than 5 hours,165,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+59,F,High,Doctor,Hypertension,No,Yes,None,Low,Gambia,More than 5 hours,100,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+31,F,Low,Doctor,Osteoporosis,Yes,No,Respiratory problems,Medium,Guinea,2 hours,45,Cheese,"['Calcium', 'Protein']"
+8,M,Low,Driver,Diabetes type 2,Yes,No,Osteoporosis,Medium,Ghana,More than 5 hours,58,Bananas,"['Vitamin B6', 'Fiber']"
+46,F,Low,Driver,None,No,Yes,Stroke,High,Gambia,2 hours,129,Bananas,"['Vitamin B6', 'Fiber']"
+10,F,Middle,Driver,Asthma,Yes,Yes,None,Low,Niger,5 hours,48,Eggs,['Protein']
+35,M,Low,Driver,Respiratory problems,Yes,No,Respiratory problems,Low,Gambia,2 hours,120,Bananas,"['Vitamin B6', 'Fiber']"
+35,F,Low,Driver,Arthritis,No,Yes,Osteoporosis,Low,Senegal,More than 5 hours,81,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+6,F,Low,Retired,Stroke,Yes,No,Obesity,High,Ivory Cost,5 hours,129,Bananas,"['Vitamin B6', 'Fiber']"
+47,F,Low,Driver,None,No,No,Diabetes type 2,High,Cape Verde,More than 5 hours,105,Chicken,['Protein']
+36,F,Low,Doctor,Arthritis,Yes,Yes,Hypertension,Low,Togo,More than 5 hours,25,Cucumber,['Vitamin K']
+61,F,High,Developer,Arthritis,Yes,No,Asthma,Medium,Ivory Cost,More than 5 hours,7,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+39,M,High,Driver,Respiratory problems,Yes,Yes,None,Low,Guinea-Bissau,2 hours,70,Cheese,"['Calcium', 'Protein']"
+64,F,Middle,Engineer,Obesity,Yes,No,Diabetes type 2,High,Ghana,More than 5 hours,73,Bananas,"['Vitamin B6', 'Fiber']"
+64,M,High,Doctor,Hypertension,Yes,No,Diabetes type 2,Low,Nigeria,More than 5 hours,42,Coconuts,"['Fiber', 'Fatty acids']"
+30,M,High,Developer,Stroke,Yes,No,Osteoporosis,High,Burkina Faso,2 hours,102,Garlic,['Antioxidants']
+70,F,Middle,Driver,Stroke,No,Yes,Asthma,Medium,Benin,2 hours,17,Banana,"['Potassium', 'Carbohydrates']"
+40,F,High,Engineer,Obesity,Yes,No,Asthma,High,Ghana,More than 5 hours,107,Bread,['Carbohydrates']
+13,F,Middle,Doctor,Diabetes type 2,No,No,Arthritis,Medium,Cape Verde,More than 5 hours,84,Eggs,['Protein']
+71,F,High,Teacher,Osteoporosis,No,Yes,Hypertension,High,Cape Verde,2 hours,109,Rice,['Carbohydrates']
+34,F,Low,Developer,Obesity,Yes,Yes,Arthritis,High,Benin,2 hours,167,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+47,M,Middle,Engineer,Stroke,No,Yes,Diabetes type 2,High,Gambia,More than 5 hours,14,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+15,M,High,Retired,Hypertension,No,Yes,Respiratory problems,Medium,Togo,5 hours,23,Eggs,['Protein']
+52,F,Middle,Retired,Hypertension,Yes,Yes,Hypertension,High,Sierra Leone,5 hours,34,Coconuts,"['Fiber', 'Fatty acids']"
+64,M,Middle,Driver,Respiratory problems,Yes,Yes,Stroke,Medium,Benin,5 hours,51,Bluberries,['Antioxidants']
+37,M,Middle,Driver,Asthma,No,Yes,Arthritis,High,Cape Verde,More than 5 hours,11,Chicken,['Protein']
+72,M,High,Teacher,Asthma,No,No,Osteoporosis,High,Niger,5 hours,14,Bluberries,['Antioxidants']
+33,F,Middle,Developer,Arthritis,No,No,Osteoporosis,High,Nigeria,5 hours,57,Lean beef,"['Protein', 'Iron']"
+29,M,Low,Teacher,Obesity,Yes,Yes,Respiratory problems,High,Niger,More than 5 hours,73,Apple,"['Vitamin C', 'Fiber']"
+28,M,Middle,Driver,Osteoporosis,No,Yes,Respiratory problems,Medium,Liberia,5 hours,163,Carrot,"['Vitamin A', 'Fiber']"
+22,F,Middle,Doctor,Obesity,Yes,No,Asthma,Medium,Nigeria,More than 5 hours,95,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+33,F,High,Doctor,Osteoporosis,No,Yes,Arthritis,Low,Ghana,5 hours,70,Rice,['Carbohydrates']
+47,M,Middle,Teacher,Diabetes type 2,Yes,Yes,None,High,Nigeria,5 hours,175,Tomatoes,"['Potassium', 'Vitamin C']"
+55,M,High,Retired,Arthritis,No,Yes,Hypertension,Medium,Liberia,2 hours,73,Eggs,['Protein']
+66,M,Low,Engineer,Obesity,Yes,Yes,Respiratory problems,Medium,Sierra Leone,More than 5 hours,106,Eggs,['Protein']
+39,F,Middle,Teacher,None,Yes,Yes,None,Low,Burkina Faso,2 hours,29,Eggs,['Protein']
+5,F,Low,Engineer,Obesity,Yes,Yes,Obesity,Medium,Togo,2 hours,47,Salmon,"['Protein', 'Omega-3']"
+47,F,Low,Doctor,None,Yes,No,Arthritis,Medium,Sierra Leone,More than 5 hours,135,Spinach,"['Iron', 'Fiber']"
+32,M,Middle,Developer,Diabetes type 2,No,Yes,Osteoporosis,Low,Togo,2 hours,131,Chicken,['Protein']
+15,F,High,Engineer,Respiratory problems,Yes,No,Diabetes type 2,Low,Senegal,More than 5 hours,90,Lean beef,"['Protein', 'Iron']"
+20,M,Low,Retired,Arthritis,No,No,Hypertension,Medium,Sierra Leone,More than 5 hours,138,Carrot,"['Vitamin A', 'Fiber']"
+22,M,Low,Developer,None,Yes,Yes,Respiratory problems,Low,Ivory Cost,2 hours,32,Bread,['Carbohydrates']
+32,F,Middle,Retired,Arthritis,Yes,No,Asthma,Low,Togo,5 hours,107,Chocolate,['Sugar']
+14,M,High,Driver,Hypertension,Yes,No,Diabetes type 2,Low,Liberia,5 hours,12,Lean beef,"['Protein', 'Iron']"
+61,F,Middle,Engineer,Hypertension,No,No,None,High,Guinea-Bissau,5 hours,46,Salmon,"['Protein', 'Omega-3']"
+17,M,Low,Developer,None,No,Yes,Respiratory problems,Medium,Sierra Leone,More than 5 hours,167,Chocolate,['Sugar']
+35,F,Middle,Driver,Obesity,Yes,No,Asthma,Medium,Guinea,5 hours,160,Bread,['Carbohydrates']
+25,M,Low,Doctor,Asthma,No,No,Stroke,Medium,Cape Verde,More than 5 hours,110,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+39,M,Middle,Developer,Respiratory problems,Yes,No,Arthritis,Low,Nigeria,More than 5 hours,23,Carrot,"['Vitamin A', 'Fiber']"
+34,F,High,Driver,Arthritis,Yes,No,Respiratory problems,High,Ivory Cost,5 hours,89,Salmon,"['Protein', 'Omega-3']"
+14,M,High,Engineer,Arthritis,Yes,No,Obesity,Low,Gambia,2 hours,3,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+17,F,Low,Doctor,Hypertension,Yes,Yes,Hypertension,Low,Ghana,5 hours,27,Eggs,['Protein']
+20,F,Low,Engineer,Arthritis,Yes,Yes,Respiratory problems,High,Gambia,5 hours,1,Bread,['Carbohydrates']
+27,M,Low,Engineer,None,Yes,No,Osteoporosis,Medium,Benin,2 hours,102,Coconuts,"['Fiber', 'Fatty acids']"
+65,F,Low,Developer,None,Yes,No,None,High,Niger,More than 5 hours,4,Bluberries,['Antioxidants']
+65,M,Low,Developer,Asthma,Yes,Yes,Stroke,Low,Senegal,2 hours,4,Bluberries,['Antioxidants']
+65,M,High,Doctor,Osteoporosis,No,No,Obesity,High,Benin,5 hours,36,Apple,"['Vitamin C', 'Fiber']"
+39,M,High,Teacher,None,No,Yes,Diabetes type 2,High,Guinea,5 hours,62,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+14,M,Low,Developer,Diabetes type 2,No,No,None,High,Cape Verde,2 hours,152,Carrot,"['Vitamin A', 'Fiber']"
+47,M,Low,Driver,Diabetes type 2,No,No,Stroke,High,Sierra Leone,More than 5 hours,155,Bananas,"['Vitamin B6', 'Fiber']"
+55,M,High,Teacher,Respiratory problems,Yes,No,Arthritis,Medium,Ivory Cost,5 hours,30,Eggs,['Protein']
+14,F,Middle,Retired,Diabetes type 2,No,Yes,None,Low,Burkina Faso,5 hours,98,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+62,M,Low,Engineer,Osteoporosis,No,Yes,Stroke,Low,Togo,More than 5 hours,151,Coconuts,"['Fiber', 'Fatty acids']"
+55,F,Middle,Driver,Diabetes type 2,No,No,Arthritis,Medium,Guinea,More than 5 hours,167,Tomatoes,"['Potassium', 'Vitamin C']"
+38,F,High,Driver,Hypertension,Yes,Yes,Hypertension,Medium,Burkina Faso,5 hours,115,Rice,['Carbohydrates']
+18,F,Low,Teacher,Obesity,Yes,Yes,Obesity,High,Mali,More than 5 hours,52,Cucumber,['Vitamin K']
+49,F,Middle,Engineer,None,Yes,No,Arthritis,High,Cape Verde,2 hours,30,Carrot,"['Vitamin A', 'Fiber']"
+42,M,High,Retired,Stroke,Yes,No,Arthritis,Medium,Sierra Leone,2 hours,30,Garlic,['Antioxidants']
+31,F,Low,Driver,None,No,Yes,Diabetes type 2,High,Mali,5 hours,47,Banana,"['Potassium', 'Carbohydrates']"
+41,F,Low,Teacher,Osteoporosis,No,Yes,None,Medium,Liberia,5 hours,44,Chicken,['Protein']
+59,M,High,Developer,Respiratory problems,No,Yes,Asthma,Low,Gambia,2 hours,18,Chicken,['Protein']
+47,M,Low,Developer,None,No,Yes,Diabetes type 2,Low,Guinea-Bissau,5 hours,26,Bread,['Carbohydrates']
+72,M,Low,Driver,Respiratory problems,Yes,No,Diabetes type 2,Low,Sierra Leone,More than 5 hours,33,Banana,"['Potassium', 'Carbohydrates']"
+48,M,Middle,Engineer,Obesity,No,Yes,Hypertension,Medium,Senegal,More than 5 hours,108,Banana,"['Potassium', 'Carbohydrates']"
+6,F,High,Driver,Diabetes type 2,Yes,No,Hypertension,Low,Senegal,2 hours,161,Tomatoes,"['Potassium', 'Vitamin C']"
+19,F,Low,Developer,Hypertension,No,Yes,Hypertension,Medium,Niger,5 hours,122,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+7,F,High,Teacher,None,No,No,None,High,Cape Verde,5 hours,23,Chocolate,['Sugar']
+9,M,Low,Doctor,Hypertension,Yes,Yes,Stroke,Medium,Senegal,2 hours,53,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+5,F,Low,Developer,Arthritis,No,Yes,Diabetes type 2,High,Burkina Faso,2 hours,62,Spinach,"['Iron', 'Fiber']"
+69,M,High,Teacher,Diabetes type 2,No,No,Arthritis,Low,Cape Verde,5 hours,160,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+17,F,Low,Doctor,Asthma,No,No,Asthma,High,Mali,2 hours,141,Apple,"['Vitamin C', 'Fiber']"
+10,M,Middle,Engineer,None,No,No,Hypertension,High,Benin,More than 5 hours,168,Rice,['Carbohydrates']
+56,F,Low,Engineer,None,Yes,Yes,Osteoporosis,Low,Mali,2 hours,153,Banana,"['Potassium', 'Carbohydrates']"
+38,M,High,Developer,Hypertension,Yes,No,Diabetes type 2,High,Benin,2 hours,138,Lean beef,"['Protein', 'Iron']"
+57,F,Middle,Doctor,Asthma,No,No,Stroke,High,Niger,More than 5 hours,18,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+21,M,High,Engineer,Respiratory problems,No,Yes,Respiratory problems,Low,Guinea-Bissau,More than 5 hours,159,Eggs,['Protein']
+32,M,Middle,Engineer,Obesity,No,No,Osteoporosis,Low,Liberia,5 hours,120,Eggs,['Protein']
+32,M,High,Teacher,Arthritis,No,Yes,None,High,Ghana,More than 5 hours,3,Rice,['Carbohydrates']
+55,F,High,Driver,Arthritis,No,No,Osteoporosis,High,Guinea-Bissau,2 hours,51,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+35,F,Low,Doctor,Asthma,Yes,Yes,Obesity,High,Guinea-Bissau,2 hours,144,Chicken,['Protein']
+49,F,High,Driver,None,Yes,Yes,Respiratory problems,Low,Ivory Cost,More than 5 hours,103,Tomatoes,"['Potassium', 'Vitamin C']"
+71,M,Low,Engineer,Diabetes type 2,No,No,Respiratory problems,Medium,Cape Verde,5 hours,76,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+64,F,Middle,Retired,Hypertension,Yes,Yes,Arthritis,Medium,Nigeria,2 hours,74,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+70,M,High,Driver,None,Yes,Yes,Respiratory problems,Medium,Niger,2 hours,119,Salmon,"['Protein', 'Omega-3']"
+55,M,Low,Developer,Obesity,No,Yes,None,Medium,Ghana,2 hours,7,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+23,M,Middle,Driver,Osteoporosis,No,Yes,Diabetes type 2,Low,Mali,5 hours,134,Spinach,"['Iron', 'Fiber']"
+15,F,High,Retired,Hypertension,No,No,Stroke,High,Mali,5 hours,119,Tomatoes,"['Potassium', 'Vitamin C']"
+70,M,Low,Developer,Respiratory problems,No,No,Stroke,Medium,Ivory Cost,2 hours,111,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+52,F,Middle,Driver,Hypertension,Yes,No,Obesity,Medium,Mali,2 hours,64,Apple,"['Vitamin C', 'Fiber']"
+44,F,Middle,Engineer,Obesity,No,No,Diabetes type 2,High,Togo,5 hours,114,Chocolate,['Sugar']
+27,M,Low,Teacher,Asthma,Yes,Yes,Arthritis,Low,Guinea-Bissau,More than 5 hours,146,Rice,['Carbohydrates']
+22,M,Low,Retired,Hypertension,Yes,No,Hypertension,Medium,Ivory Cost,More than 5 hours,78,Chocolate,['Sugar']
+33,F,High,Engineer,Stroke,No,No,Hypertension,Low,Burkina Faso,2 hours,10,Lean beef,"['Protein', 'Iron']"
+70,M,Middle,Teacher,Diabetes type 2,Yes,No,Hypertension,Low,Guinea-Bissau,5 hours,171,Carrot,"['Vitamin A', 'Fiber']"
+5,M,Middle,Engineer,None,Yes,No,Osteoporosis,Low,Nigeria,2 hours,128,Bananas,"['Vitamin B6', 'Fiber']"
+12,F,Middle,Teacher,Asthma,Yes,Yes,Obesity,Low,Liberia,2 hours,159,Coconuts,"['Fiber', 'Fatty acids']"
+50,M,Low,Retired,Hypertension,No,Yes,Stroke,Medium,Guinea,More than 5 hours,88,Bluberries,['Antioxidants']
+48,M,Low,Engineer,Arthritis,Yes,Yes,Diabetes type 2,Medium,Nigeria,More than 5 hours,67,Bluberries,['Antioxidants']
+65,F,High,Retired,Respiratory problems,No,No,Osteoporosis,Low,Sierra Leone,More than 5 hours,137,Garlic,['Antioxidants']
+18,F,High,Driver,Diabetes type 2,No,No,Asthma,Medium,Guinea-Bissau,5 hours,7,Salmon,"['Protein', 'Omega-3']"
+22,M,Middle,Doctor,Stroke,Yes,Yes,Obesity,Medium,Nigeria,2 hours,171,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+43,M,Middle,Developer,Arthritis,No,No,Stroke,Low,Mali,2 hours,27,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+64,M,High,Developer,Osteoporosis,Yes,Yes,Diabetes type 2,Low,Senegal,5 hours,137,Rice,['Carbohydrates']
+69,M,Middle,Teacher,Stroke,Yes,Yes,Arthritis,Medium,Mali,More than 5 hours,4,Chocolate,['Sugar']
+47,F,Low,Engineer,Hypertension,No,Yes,Obesity,Low,Cape Verde,More than 5 hours,77,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+22,M,High,Teacher,Obesity,No,No,Arthritis,Medium,Cape Verde,2 hours,171,Chicken,['Protein']
+60,M,High,Doctor,Asthma,No,Yes,Obesity,Medium,Burkina Faso,2 hours,110,Chocolate,['Sugar']
+40,M,Middle,Teacher,Arthritis,No,Yes,Diabetes type 2,Medium,Mali,5 hours,105,Spinach,"['Iron', 'Fiber']"
+67,M,High,Driver,Arthritis,No,Yes,Hypertension,Low,Niger,2 hours,174,Bread,['Carbohydrates']
+45,M,High,Developer,Diabetes type 2,Yes,No,Osteoporosis,Low,Niger,More than 5 hours,83,Tomatoes,"['Potassium', 'Vitamin C']"
+41,M,High,Doctor,Asthma,Yes,No,Obesity,Low,Cape Verde,2 hours,60,Cheese,"['Calcium', 'Protein']"
+48,M,Middle,Teacher,Diabetes type 2,No,Yes,None,Medium,Sierra Leone,2 hours,49,Cheese,"['Calcium', 'Protein']"
+25,M,Low,Engineer,Hypertension,No,Yes,Diabetes type 2,Medium,Burkina Faso,More than 5 hours,15,Coconuts,"['Fiber', 'Fatty acids']"
+34,F,High,Teacher,None,No,No,Diabetes type 2,High,Cape Verde,5 hours,73,Salmon,"['Protein', 'Omega-3']"
+9,M,Middle,Doctor,Osteoporosis,No,Yes,Obesity,Low,Ghana,2 hours,128,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+70,M,Low,Retired,Respiratory problems,Yes,Yes,Hypertension,High,Benin,5 hours,102,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+8,F,Low,Teacher,Asthma,No,No,Stroke,Low,Liberia,5 hours,82,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+47,F,Middle,Retired,None,No,Yes,Obesity,Low,Senegal,5 hours,103,Chocolate,['Sugar']
+44,F,Low,Developer,None,No,Yes,None,Low,Gambia,2 hours,114,Lean beef,"['Protein', 'Iron']"
+12,F,Middle,Retired,Hypertension,Yes,No,Respiratory problems,Medium,Burkina Faso,2 hours,123,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+71,F,Low,Teacher,Respiratory problems,No,Yes,None,Low,Guinea-Bissau,2 hours,99,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+55,F,High,Developer,None,No,No,Hypertension,Medium,Sierra Leone,More than 5 hours,156,Carrot,"['Vitamin A', 'Fiber']"
+72,M,Low,Retired,Obesity,Yes,Yes,Osteoporosis,Low,Liberia,2 hours,132,Banana,"['Potassium', 'Carbohydrates']"
+19,M,High,Engineer,Stroke,Yes,No,Hypertension,Low,Senegal,2 hours,19,Eggs,['Protein']
+46,F,Low,Developer,Asthma,No,No,Asthma,Low,Togo,2 hours,69,Cucumber,['Vitamin K']
+47,M,High,Engineer,Hypertension,Yes,No,Respiratory problems,High,Guinea-Bissau,More than 5 hours,106,Lean beef,"['Protein', 'Iron']"
+63,M,High,Doctor,Diabetes type 2,Yes,No,Respiratory problems,High,Mali,2 hours,167,Coconuts,"['Fiber', 'Fatty acids']"
+61,M,Low,Doctor,Stroke,Yes,Yes,None,Low,Burkina Faso,More than 5 hours,102,Cucumber,['Vitamin K']
+15,M,High,Driver,Osteoporosis,No,Yes,Hypertension,Medium,Nigeria,5 hours,141,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+30,M,Low,Driver,Osteoporosis,Yes,Yes,Stroke,Low,Gambia,More than 5 hours,136,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+67,F,Low,Doctor,Arthritis,No,No,Diabetes type 2,Low,Niger,More than 5 hours,160,Cheese,"['Calcium', 'Protein']"
+74,F,Middle,Retired,Obesity,No,No,Stroke,Low,Niger,2 hours,59,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+13,F,High,Engineer,Osteoporosis,No,Yes,Osteoporosis,Low,Sierra Leone,5 hours,162,Cucumber,['Vitamin K']
+16,M,Low,Teacher,Respiratory problems,Yes,Yes,Respiratory problems,Medium,Ghana,5 hours,125,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+12,M,Middle,Driver,Hypertension,Yes,Yes,Hypertension,Medium,Senegal,2 hours,150,Chocolate,['Sugar']
+20,F,High,Engineer,Diabetes type 2,No,No,None,High,Gambia,2 hours,65,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+7,F,High,Driver,Arthritis,Yes,No,Stroke,High,Senegal,More than 5 hours,94,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+29,M,High,Teacher,Stroke,No,No,Diabetes type 2,High,Togo,2 hours,96,Spinach,"['Iron', 'Fiber']"
+33,F,High,Doctor,Asthma,Yes,No,Obesity,High,Mali,2 hours,29,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+63,M,Middle,Developer,Stroke,Yes,Yes,Obesity,Medium,Benin,2 hours,14,Apple,"['Vitamin C', 'Fiber']"
+28,M,Middle,Teacher,Arthritis,No,No,Respiratory problems,Low,Nigeria,5 hours,105,Apple,"['Vitamin C', 'Fiber']"
+47,M,Middle,Retired,Stroke,Yes,Yes,Respiratory problems,Low,Ghana,2 hours,77,Banana,"['Potassium', 'Carbohydrates']"
+75,F,High,Developer,None,No,Yes,Osteoporosis,Medium,Guinea-Bissau,2 hours,64,Coconuts,"['Fiber', 'Fatty acids']"
+70,M,High,Engineer,Asthma,No,No,Stroke,Medium,Guinea,More than 5 hours,34,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+54,M,High,Doctor,Arthritis,Yes,No,Hypertension,Medium,Gambia,2 hours,44,Rice,['Carbohydrates']
+67,M,High,Doctor,Arthritis,Yes,Yes,Diabetes type 2,High,Nigeria,More than 5 hours,132,Chicken,['Protein']
+5,M,Low,Retired,Obesity,Yes,Yes,Osteoporosis,High,Guinea-Bissau,5 hours,173,Chicken,['Protein']
+72,M,High,Developer,Asthma,Yes,No,Respiratory problems,Medium,Togo,More than 5 hours,112,Lean beef,"['Protein', 'Iron']"
+26,M,Middle,Teacher,Diabetes type 2,No,Yes,Respiratory problems,High,Niger,5 hours,4,Chicken,['Protein']
+7,M,High,Driver,Respiratory problems,No,Yes,Osteoporosis,Medium,Senegal,5 hours,56,Spinach,"['Iron', 'Fiber']"
+11,M,Low,Developer,Arthritis,Yes,No,Hypertension,High,Liberia,2 hours,66,Garlic,['Antioxidants']
+5,M,High,Developer,Arthritis,Yes,Yes,Obesity,High,Gambia,2 hours,18,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+16,M,Low,Doctor,Respiratory problems,Yes,Yes,Osteoporosis,Medium,Niger,2 hours,4,Carrot,"['Vitamin A', 'Fiber']"
+24,M,High,Doctor,None,Yes,No,Asthma,Low,Burkina Faso,5 hours,121,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+59,F,Low,Teacher,Arthritis,Yes,No,Stroke,Medium,Guinea,More than 5 hours,17,Cucumber,['Vitamin K']
+33,F,Middle,Retired,Arthritis,Yes,No,Hypertension,Medium,Ivory Cost,More than 5 hours,66,Bluberries,['Antioxidants']
+12,M,Middle,Engineer,Osteoporosis,No,Yes,Diabetes type 2,Medium,Sierra Leone,5 hours,64,Tomatoes,"['Potassium', 'Vitamin C']"
+24,F,Middle,Driver,Respiratory problems,No,No,Asthma,Low,Togo,2 hours,46,Chicken,['Protein']
+55,M,Middle,Teacher,Obesity,Yes,Yes,Diabetes type 2,High,Niger,2 hours,131,Carrot,"['Vitamin A', 'Fiber']"
+40,M,High,Retired,None,No,Yes,Asthma,High,Ghana,5 hours,164,Banana,"['Potassium', 'Carbohydrates']"
+57,F,High,Doctor,None,No,No,Hypertension,Medium,Ivory Cost,2 hours,106,Chocolate,['Sugar']
+66,M,High,Driver,Hypertension,Yes,No,Stroke,Medium,Sierra Leone,5 hours,38,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+63,M,Middle,Engineer,Respiratory problems,Yes,No,Stroke,Low,Niger,More than 5 hours,132,Cheese,"['Calcium', 'Protein']"
+38,F,High,Retired,Obesity,No,No,Asthma,Low,Niger,More than 5 hours,4,Coconuts,"['Fiber', 'Fatty acids']"
+38,M,High,Driver,Asthma,No,Yes,Respiratory problems,Medium,Gambia,More than 5 hours,110,Spinach,"['Iron', 'Fiber']"
+42,M,Low,Doctor,Stroke,No,Yes,Arthritis,Medium,Togo,2 hours,21,Salmon,"['Protein', 'Omega-3']"
+40,M,High,Retired,Respiratory problems,Yes,Yes,Stroke,Low,Nigeria,More than 5 hours,27,Rice,['Carbohydrates']
+71,M,Middle,Engineer,None,Yes,No,Arthritis,Low,Sierra Leone,More than 5 hours,46,Apple,"['Vitamin C', 'Fiber']"
+69,F,Low,Developer,Arthritis,No,Yes,Arthritis,Low,Burkina Faso,More than 5 hours,131,Coconuts,"['Fiber', 'Fatty acids']"
+46,M,Middle,Driver,Asthma,No,No,Obesity,Low,Benin,More than 5 hours,125,Apple,"['Vitamin C', 'Fiber']"
+27,F,Low,Teacher,Hypertension,No,No,Diabetes type 2,Medium,Guinea-Bissau,5 hours,153,Carrot,"['Vitamin A', 'Fiber']"
+25,M,Middle,Doctor,Stroke,No,No,Stroke,High,Guinea,5 hours,83,Eggs,['Protein']
+26,M,Middle,Engineer,Diabetes type 2,Yes,No,Hypertension,High,Liberia,2 hours,96,Bluberries,['Antioxidants']
+31,M,High,Developer,Diabetes type 2,No,Yes,Osteoporosis,Low,Ivory Cost,More than 5 hours,101,Eggs,['Protein']
+68,M,Middle,Retired,Arthritis,No,Yes,Obesity,Low,Guinea-Bissau,More than 5 hours,85,Lean beef,"['Protein', 'Iron']"
+22,M,Middle,Retired,Diabetes type 2,No,Yes,Arthritis,High,Sierra Leone,More than 5 hours,62,Rice,['Carbohydrates']
+33,M,High,Engineer,Obesity,Yes,Yes,Arthritis,Medium,Togo,2 hours,85,Tomatoes,"['Potassium', 'Vitamin C']"
+23,M,High,Teacher,Respiratory problems,No,No,Obesity,Low,Cape Verde,5 hours,31,Banana,"['Potassium', 'Carbohydrates']"
+23,M,Middle,Engineer,None,No,No,Arthritis,High,Liberia,5 hours,139,Carrot,"['Vitamin A', 'Fiber']"
+36,M,High,Teacher,None,No,Yes,Stroke,Low,Nigeria,2 hours,9,Lean beef,"['Protein', 'Iron']"
+69,M,Low,Retired,Arthritis,No,No,Asthma,Medium,Liberia,5 hours,16,Bread,['Carbohydrates']
+63,F,Middle,Driver,None,No,Yes,Obesity,High,Gambia,More than 5 hours,125,Bluberries,['Antioxidants']
+29,M,Low,Retired,Respiratory problems,Yes,No,Obesity,Medium,Liberia,5 hours,8,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+19,M,Low,Teacher,Stroke,No,Yes,Stroke,High,Nigeria,More than 5 hours,70,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+63,F,Middle,Doctor,Obesity,No,Yes,Osteoporosis,Low,Mali,More than 5 hours,157,Cucumber,['Vitamin K']
+53,F,Middle,Doctor,Stroke,No,Yes,Obesity,Medium,Cape Verde,5 hours,80,Bluberries,['Antioxidants']
+38,M,Middle,Teacher,Asthma,Yes,Yes,Obesity,High,Liberia,More than 5 hours,15,Bread,['Carbohydrates']
+26,F,Middle,Engineer,Hypertension,No,No,Osteoporosis,High,Niger,5 hours,68,Salmon,"['Protein', 'Omega-3']"
+67,M,Middle,Engineer,Respiratory problems,No,No,Osteoporosis,High,Benin,2 hours,84,Spinach,"['Iron', 'Fiber']"
+56,F,Middle,Driver,Osteoporosis,Yes,Yes,Obesity,Medium,Cape Verde,2 hours,175,Cucumber,['Vitamin K']
+10,M,Low,Doctor,Respiratory problems,No,Yes,Diabetes type 2,Low,Senegal,2 hours,30,Bread,['Carbohydrates']
+5,F,Low,Retired,Asthma,No,No,Arthritis,Low,Guinea-Bissau,2 hours,171,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+55,M,Middle,Driver,Obesity,Yes,Yes,Stroke,Low,Mali,5 hours,54,Spinach,"['Iron', 'Fiber']"
+23,F,Low,Developer,Osteoporosis,No,No,Diabetes type 2,Low,Senegal,5 hours,110,Bread,['Carbohydrates']
+16,M,Middle,Teacher,Diabetes type 2,Yes,No,Hypertension,High,Benin,2 hours,60,Cheese,"['Calcium', 'Protein']"
+48,F,High,Doctor,Diabetes type 2,Yes,No,Diabetes type 2,High,Mali,5 hours,114,Bananas,"['Vitamin B6', 'Fiber']"
+35,F,Middle,Developer,None,Yes,Yes,Respiratory problems,High,Ghana,5 hours,98,Bread,['Carbohydrates']
+26,F,Low,Developer,Hypertension,Yes,No,Arthritis,Low,Ivory Cost,5 hours,166,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+34,F,Low,Retired,Respiratory problems,Yes,No,Respiratory problems,High,Liberia,More than 5 hours,156,Apple,"['Vitamin C', 'Fiber']"
+52,M,Middle,Retired,Obesity,No,No,Respiratory problems,High,Ivory Cost,2 hours,145,Chicken,['Protein']
+29,F,Middle,Teacher,Osteoporosis,Yes,Yes,Stroke,Low,Togo,More than 5 hours,151,Salmon,"['Protein', 'Omega-3']"
+73,M,Low,Developer,Hypertension,Yes,No,Diabetes type 2,High,Ivory Cost,2 hours,20,Spinach,"['Iron', 'Fiber']"
+10,F,High,Teacher,Hypertension,Yes,Yes,Stroke,Low,Benin,5 hours,93,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+29,M,Low,Developer,Asthma,Yes,Yes,None,High,Guinea,More than 5 hours,83,Bananas,"['Vitamin B6', 'Fiber']"
+9,F,High,Developer,Stroke,No,Yes,Obesity,High,Ivory Cost,More than 5 hours,172,Cucumber,['Vitamin K']
+46,F,Low,Engineer,Asthma,Yes,No,Hypertension,Medium,Senegal,5 hours,122,Chicken,['Protein']
+71,F,Low,Retired,Osteoporosis,Yes,Yes,Obesity,High,Togo,More than 5 hours,159,Bananas,"['Vitamin B6', 'Fiber']"
+46,F,High,Teacher,Respiratory problems,Yes,Yes,Arthritis,Medium,Cape Verde,5 hours,76,Bread,['Carbohydrates']
+51,F,Middle,Retired,Respiratory problems,Yes,No,Osteoporosis,Low,Mali,5 hours,112,Coconuts,"['Fiber', 'Fatty acids']"
+47,M,Middle,Teacher,Osteoporosis,No,No,Respiratory problems,High,Nigeria,More than 5 hours,14,Garlic,['Antioxidants']
+51,M,Low,Engineer,Hypertension,No,Yes,Osteoporosis,Low,Benin,More than 5 hours,16,Lean beef,"['Protein', 'Iron']"
+39,F,Low,Retired,Stroke,No,No,Diabetes type 2,Medium,Ghana,More than 5 hours,129,Lean beef,"['Protein', 'Iron']"
+29,F,Middle,Driver,Stroke,No,No,Arthritis,Medium,Ivory Cost,5 hours,86,Eggs,['Protein']
+5,M,High,Developer,Arthritis,No,No,Arthritis,High,Guinea-Bissau,More than 5 hours,115,Chicken,['Protein']
+18,M,Low,Teacher,Stroke,No,Yes,Arthritis,High,Togo,2 hours,127,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+70,M,Low,Teacher,Osteoporosis,No,Yes,Obesity,High,Ghana,2 hours,15,Garlic,['Antioxidants']
+53,M,Low,Teacher,Stroke,Yes,No,Obesity,High,Sierra Leone,More than 5 hours,45,Chicken,['Protein']
+59,M,Middle,Developer,Stroke,No,Yes,Hypertension,Medium,Guinea-Bissau,2 hours,11,Rice,['Carbohydrates']
+36,F,Low,Teacher,Diabetes type 2,Yes,No,Arthritis,High,Cape Verde,5 hours,54,Banana,"['Potassium', 'Carbohydrates']"
+41,F,High,Driver,Diabetes type 2,No,Yes,None,Medium,Nigeria,5 hours,96,Banana,"['Potassium', 'Carbohydrates']"
+38,M,Middle,Doctor,Asthma,No,No,Obesity,Low,Mali,5 hours,58,Chicken,['Protein']
+73,F,Middle,Retired,None,No,No,Respiratory problems,Medium,Guinea,More than 5 hours,101,Bluberries,['Antioxidants']
+50,M,Middle,Doctor,Asthma,Yes,Yes,Stroke,Medium,Liberia,5 hours,146,Eggs,['Protein']
+29,F,High,Developer,Arthritis,No,Yes,Osteoporosis,High,Benin,More than 5 hours,154,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+12,F,High,Developer,Respiratory problems,No,No,Stroke,Medium,Gambia,More than 5 hours,35,Salmon,"['Protein', 'Omega-3']"
+46,F,Low,Retired,Diabetes type 2,No,Yes,Diabetes type 2,Medium,Cape Verde,5 hours,50,Cucumber,['Vitamin K']
+13,F,High,Engineer,Diabetes type 2,No,Yes,Arthritis,High,Burkina Faso,5 hours,39,Bluberries,['Antioxidants']
+45,F,Low,Teacher,Asthma,Yes,No,Stroke,Medium,Gambia,5 hours,1,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+9,F,Middle,Retired,Obesity,Yes,Yes,Respiratory problems,Low,Guinea,5 hours,39,Carrot,"['Vitamin A', 'Fiber']"
+72,F,Middle,Engineer,Diabetes type 2,Yes,No,Osteoporosis,High,Guinea,5 hours,118,Lean beef,"['Protein', 'Iron']"
+48,M,Middle,Retired,Asthma,No,Yes,Asthma,Low,Sierra Leone,2 hours,56,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+74,F,Low,Teacher,Diabetes type 2,No,No,Hypertension,Medium,Benin,2 hours,121,Spinach,"['Iron', 'Fiber']"
+74,M,Middle,Developer,Diabetes type 2,No,No,Obesity,High,Benin,2 hours,172,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+31,M,Low,Engineer,Diabetes type 2,Yes,Yes,None,High,Nigeria,More than 5 hours,83,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+63,M,High,Retired,Obesity,No,No,Obesity,Medium,Gambia,5 hours,59,Lean beef,"['Protein', 'Iron']"
+66,F,Middle,Doctor,None,No,Yes,Respiratory problems,Medium,Gambia,5 hours,26,Cheese,"['Calcium', 'Protein']"
+5,M,Low,Engineer,Arthritis,No,Yes,Respiratory problems,High,Guinea,5 hours,49,Eggs,['Protein']
+22,F,High,Doctor,Respiratory problems,No,Yes,Respiratory problems,High,Ivory Cost,2 hours,120,Banana,"['Potassium', 'Carbohydrates']"
+22,F,Middle,Driver,Osteoporosis,Yes,Yes,Hypertension,High,Senegal,More than 5 hours,41,Apple,"['Vitamin C', 'Fiber']"
+47,F,High,Teacher,Osteoporosis,No,No,Hypertension,Medium,Liberia,More than 5 hours,17,Banana,"['Potassium', 'Carbohydrates']"
+55,M,High,Driver,Stroke,Yes,Yes,Arthritis,Medium,Burkina Faso,More than 5 hours,139,Spinach,"['Iron', 'Fiber']"
+35,F,Middle,Engineer,Hypertension,Yes,No,Stroke,Medium,Nigeria,2 hours,26,Bananas,"['Vitamin B6', 'Fiber']"
+25,F,Low,Teacher,Stroke,No,No,Respiratory problems,Low,Benin,More than 5 hours,50,Cucumber,['Vitamin K']
+59,M,High,Engineer,Diabetes type 2,No,No,Diabetes type 2,Low,Guinea,5 hours,56,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+27,M,Middle,Doctor,Respiratory problems,No,No,Diabetes type 2,Medium,Nigeria,2 hours,107,Bread,['Carbohydrates']
+41,F,High,Driver,Obesity,No,Yes,Hypertension,High,Mali,More than 5 hours,71,Eggs,['Protein']
+68,M,Middle,Doctor,Respiratory problems,No,Yes,Respiratory problems,High,Burkina Faso,2 hours,12,Apple,"['Vitamin C', 'Fiber']"
+48,F,High,Developer,Obesity,No,No,Hypertension,Low,Ghana,2 hours,95,Apple,"['Vitamin C', 'Fiber']"
+40,F,Middle,Developer,None,No,Yes,Hypertension,Low,Ghana,5 hours,15,Salmon,"['Protein', 'Omega-3']"
+66,M,Middle,Retired,Osteoporosis,No,Yes,Hypertension,Low,Nigeria,5 hours,49,Bluberries,['Antioxidants']
+17,M,Low,Developer,Respiratory problems,No,Yes,Asthma,Low,Mali,2 hours,143,Garlic,['Antioxidants']
+32,M,High,Developer,Hypertension,Yes,Yes,None,High,Benin,2 hours,94,Cheese,"['Calcium', 'Protein']"
+60,F,Middle,Teacher,Hypertension,Yes,Yes,Obesity,Medium,Guinea,2 hours,174,Carrot,"['Vitamin A', 'Fiber']"
+40,M,Low,Developer,Diabetes type 2,Yes,No,Stroke,High,Senegal,2 hours,90,Carrot,"['Vitamin A', 'Fiber']"
+50,F,Middle,Retired,Arthritis,Yes,Yes,Arthritis,Medium,Liberia,More than 5 hours,27,Cheese,"['Calcium', 'Protein']"
+72,M,Middle,Teacher,Stroke,Yes,No,Arthritis,Medium,Benin,5 hours,39,Tomatoes,"['Potassium', 'Vitamin C']"
+36,F,Low,Retired,Arthritis,No,No,Asthma,Low,Guinea,5 hours,111,Salmon,"['Protein', 'Omega-3']"
+66,M,High,Developer,Obesity,Yes,No,Osteoporosis,Low,Ghana,2 hours,130,Coconuts,"['Fiber', 'Fatty acids']"
+64,M,Middle,Driver,Hypertension,Yes,Yes,Stroke,Medium,Cape Verde,5 hours,83,Tomatoes,"['Potassium', 'Vitamin C']"
+40,M,Middle,Doctor,Stroke,Yes,Yes,Diabetes type 2,High,Burkina Faso,More than 5 hours,112,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+23,F,High,Developer,Respiratory problems,Yes,Yes,Hypertension,Low,Niger,2 hours,88,Bananas,"['Vitamin B6', 'Fiber']"
+67,M,High,Retired,Hypertension,Yes,Yes,Arthritis,Low,Gambia,2 hours,149,Eggs,['Protein']
+17,F,Middle,Developer,Obesity,No,Yes,Obesity,Low,Senegal,5 hours,6,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+62,M,Middle,Driver,Arthritis,No,Yes,None,Medium,Cape Verde,More than 5 hours,154,Chocolate,['Sugar']
+66,M,Middle,Teacher,Stroke,No,Yes,Osteoporosis,Medium,Cape Verde,More than 5 hours,71,Banana,"['Potassium', 'Carbohydrates']"
+72,F,Middle,Driver,Hypertension,Yes,Yes,Osteoporosis,Low,Guinea-Bissau,More than 5 hours,71,Spinach,"['Iron', 'Fiber']"
+52,M,Middle,Driver,Osteoporosis,No,No,Stroke,Low,Cape Verde,More than 5 hours,90,Coconuts,"['Fiber', 'Fatty acids']"
+35,F,Low,Engineer,Osteoporosis,No,No,Asthma,Low,Guinea-Bissau,More than 5 hours,155,Cucumber,['Vitamin K']
+13,M,High,Driver,Respiratory problems,Yes,Yes,Diabetes type 2,Low,Niger,2 hours,141,Banana,"['Potassium', 'Carbohydrates']"
+74,F,High,Engineer,None,Yes,No,Osteoporosis,High,Mali,More than 5 hours,88,Cheese,"['Calcium', 'Protein']"
+57,F,High,Engineer,None,Yes,Yes,Stroke,Low,Cape Verde,More than 5 hours,50,Chicken,['Protein']
+39,M,High,Driver,Osteoporosis,Yes,No,Respiratory problems,Low,Togo,5 hours,66,Chocolate,['Sugar']
+8,F,High,Driver,None,Yes,No,Respiratory problems,Medium,Guinea,More than 5 hours,9,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+24,M,Middle,Engineer,Asthma,No,Yes,Obesity,High,Burkina Faso,More than 5 hours,109,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+15,F,High,Doctor,Arthritis,Yes,Yes,Hypertension,Medium,Ivory Cost,More than 5 hours,16,Banana,"['Potassium', 'Carbohydrates']"
+62,F,High,Driver,Respiratory problems,No,Yes,Arthritis,High,Guinea,5 hours,160,Coconuts,"['Fiber', 'Fatty acids']"
+40,M,Low,Teacher,Stroke,Yes,Yes,None,High,Gambia,More than 5 hours,81,Rice,['Carbohydrates']
+51,F,Low,Driver,Arthritis,Yes,Yes,Obesity,High,Niger,5 hours,136,Cheese,"['Calcium', 'Protein']"
+63,M,High,Developer,Respiratory problems,Yes,No,Stroke,High,Ghana,5 hours,91,Chocolate,['Sugar']
+71,F,High,Driver,Arthritis,No,No,Respiratory problems,High,Senegal,More than 5 hours,54,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+45,F,Middle,Teacher,Osteoporosis,No,No,Arthritis,High,Niger,2 hours,82,Chicken,['Protein']
+70,M,Middle,Retired,Obesity,No,Yes,Osteoporosis,Low,Liberia,More than 5 hours,104,Eggs,['Protein']
+74,F,Low,Doctor,Stroke,Yes,Yes,Obesity,Low,Liberia,2 hours,65,Salmon,"['Protein', 'Omega-3']"
+68,M,High,Driver,Respiratory problems,Yes,Yes,Stroke,Low,Ghana,2 hours,37,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+75,M,Low,Teacher,Stroke,No,No,Respiratory problems,Medium,Mali,5 hours,107,Garlic,['Antioxidants']
+21,M,Middle,Engineer,Respiratory problems,Yes,Yes,Hypertension,Low,Nigeria,2 hours,61,Bread,['Carbohydrates']
+60,M,Low,Teacher,Respiratory problems,Yes,Yes,Diabetes type 2,Low,Nigeria,2 hours,113,Salmon,"['Protein', 'Omega-3']"
+67,M,Low,Teacher,Asthma,No,No,Stroke,Medium,Ghana,5 hours,157,Coconuts,"['Fiber', 'Fatty acids']"
+25,M,High,Retired,Hypertension,No,Yes,Obesity,High,Mali,5 hours,51,Bread,['Carbohydrates']
+51,M,Low,Engineer,Stroke,No,Yes,Diabetes type 2,Medium,Guinea-Bissau,5 hours,27,Tomatoes,"['Potassium', 'Vitamin C']"
+42,M,Low,Driver,Obesity,No,Yes,Osteoporosis,Low,Senegal,2 hours,108,Apple,"['Vitamin C', 'Fiber']"
+13,F,Low,Retired,Diabetes type 2,No,No,Obesity,Medium,Nigeria,2 hours,145,Spinach,"['Iron', 'Fiber']"
+47,M,Low,Doctor,None,No,Yes,Diabetes type 2,Low,Benin,5 hours,5,Garlic,['Antioxidants']
+44,M,Middle,Driver,None,Yes,No,Obesity,High,Ivory Cost,5 hours,17,Banana,"['Potassium', 'Carbohydrates']"
+53,F,High,Engineer,Diabetes type 2,Yes,Yes,Diabetes type 2,Medium,Sierra Leone,5 hours,6,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+66,M,High,Retired,Arthritis,No,No,Asthma,High,Liberia,More than 5 hours,112,Apple,"['Vitamin C', 'Fiber']"
+9,F,High,Developer,Diabetes type 2,No,Yes,Arthritis,High,Ivory Cost,More than 5 hours,59,Banana,"['Potassium', 'Carbohydrates']"
+57,M,Middle,Developer,Stroke,Yes,No,Diabetes type 2,High,Togo,2 hours,61,Lean beef,"['Protein', 'Iron']"
+42,M,Middle,Teacher,None,No,Yes,Diabetes type 2,Medium,Mali,2 hours,8,Cucumber,['Vitamin K']
+67,F,Low,Developer,Arthritis,Yes,No,Asthma,Low,Liberia,More than 5 hours,110,Rice,['Carbohydrates']
+37,M,High,Engineer,Hypertension,Yes,Yes,Asthma,Low,Sierra Leone,5 hours,112,Carrot,"['Vitamin A', 'Fiber']"
+8,M,Low,Driver,Diabetes type 2,Yes,Yes,Osteoporosis,Medium,Cape Verde,More than 5 hours,10,Spinach,"['Iron', 'Fiber']"
+51,F,Low,Developer,Obesity,No,Yes,Obesity,High,Guinea,2 hours,151,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+72,F,Middle,Driver,Diabetes type 2,No,Yes,Respiratory problems,High,Nigeria,2 hours,114,Garlic,['Antioxidants']
+42,M,High,Developer,Stroke,No,Yes,None,Medium,Ivory Cost,More than 5 hours,145,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+68,F,High,Retired,Stroke,Yes,No,Hypertension,Low,Guinea-Bissau,More than 5 hours,111,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+39,M,High,Driver,Osteoporosis,No,Yes,Asthma,Medium,Ivory Cost,More than 5 hours,41,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+49,F,High,Teacher,Osteoporosis,Yes,No,Hypertension,Medium,Liberia,More than 5 hours,9,Apple,"['Vitamin C', 'Fiber']"
+73,F,High,Retired,Osteoporosis,No,Yes,Osteoporosis,High,Sierra Leone,5 hours,129,Cheese,"['Calcium', 'Protein']"
+51,M,Middle,Teacher,Diabetes type 2,Yes,Yes,Stroke,Medium,Gambia,More than 5 hours,166,Carrot,"['Vitamin A', 'Fiber']"
+23,F,Middle,Doctor,Asthma,Yes,Yes,Asthma,Low,Niger,5 hours,55,Apple,"['Vitamin C', 'Fiber']"
+68,F,High,Developer,Osteoporosis,Yes,Yes,Stroke,Low,Gambia,More than 5 hours,171,Lean beef,"['Protein', 'Iron']"
+61,M,Middle,Driver,Hypertension,No,No,Respiratory problems,Low,Burkina Faso,2 hours,20,Carrot,"['Vitamin A', 'Fiber']"
+12,M,Middle,Developer,Obesity,Yes,Yes,None,Medium,Gambia,More than 5 hours,57,Chocolate,['Sugar']
+19,M,High,Retired,Hypertension,No,Yes,Respiratory problems,Medium,Togo,5 hours,19,Banana,"['Potassium', 'Carbohydrates']"
+19,M,High,Developer,Osteoporosis,No,No,Arthritis,Low,Guinea,2 hours,114,Carrot,"['Vitamin A', 'Fiber']"
+8,F,High,Engineer,Stroke,Yes,No,Osteoporosis,High,Burkina Faso,More than 5 hours,65,Spinach,"['Iron', 'Fiber']"
+68,M,High,Doctor,None,Yes,Yes,Obesity,High,Ghana,2 hours,93,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+42,M,High,Developer,Hypertension,No,No,Obesity,Medium,Gambia,More than 5 hours,4,Chicken,['Protein']
+9,M,Low,Retired,Arthritis,No,Yes,Stroke,Medium,Ghana,More than 5 hours,158,Tomatoes,"['Potassium', 'Vitamin C']"
+27,M,Low,Driver,Respiratory problems,Yes,No,Arthritis,High,Liberia,5 hours,30,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+74,M,Low,Teacher,Diabetes type 2,No,No,None,Medium,Nigeria,More than 5 hours,4,Bananas,"['Vitamin B6', 'Fiber']"
+38,M,Middle,Driver,Respiratory problems,No,No,Hypertension,Low,Guinea,5 hours,175,Bananas,"['Vitamin B6', 'Fiber']"
+22,F,Low,Retired,Hypertension,No,No,None,Medium,Niger,More than 5 hours,77,Rice,['Carbohydrates']
+44,M,Low,Driver,Respiratory problems,Yes,No,None,Medium,Togo,5 hours,94,Salmon,"['Protein', 'Omega-3']"
+27,F,High,Retired,Arthritis,Yes,Yes,Diabetes type 2,Low,Guinea,2 hours,74,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+6,F,Middle,Teacher,Diabetes type 2,No,No,None,Medium,Gambia,More than 5 hours,55,Carrot,"['Vitamin A', 'Fiber']"
+40,M,High,Retired,Obesity,No,Yes,Hypertension,High,Ghana,5 hours,165,Coconuts,"['Fiber', 'Fatty acids']"
+32,F,High,Teacher,Respiratory problems,Yes,Yes,Asthma,Low,Ivory Cost,5 hours,110,Bread,['Carbohydrates']
+47,M,High,Driver,Asthma,Yes,Yes,Diabetes type 2,Low,Burkina Faso,More than 5 hours,95,Bluberries,['Antioxidants']
+73,M,Middle,Engineer,Obesity,Yes,Yes,Arthritis,High,Nigeria,5 hours,162,Salmon,"['Protein', 'Omega-3']"
+36,F,Middle,Teacher,Diabetes type 2,No,Yes,None,Low,Togo,More than 5 hours,30,Bread,['Carbohydrates']
+28,F,Middle,Engineer,Hypertension,Yes,No,Obesity,Medium,Nigeria,5 hours,133,Bluberries,['Antioxidants']
+73,F,High,Retired,Arthritis,No,No,Diabetes type 2,Low,Gambia,2 hours,114,Carrot,"['Vitamin A', 'Fiber']"
+8,M,Low,Doctor,Stroke,No,Yes,None,Low,Mali,5 hours,60,Eggs,['Protein']
+20,M,Middle,Doctor,Respiratory problems,No,Yes,Hypertension,Medium,Togo,2 hours,4,Bananas,"['Vitamin B6', 'Fiber']"
+16,M,High,Doctor,Stroke,No,Yes,Stroke,Medium,Ghana,5 hours,14,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+5,F,High,Driver,Obesity,No,Yes,Hypertension,Low,Senegal,5 hours,158,Rice,['Carbohydrates']
+20,M,Low,Doctor,Obesity,No,No,Respiratory problems,Medium,Ivory Cost,More than 5 hours,60,Cheese,"['Calcium', 'Protein']"
+9,M,Middle,Driver,None,No,Yes,None,High,Liberia,5 hours,64,Bluberries,['Antioxidants']
+48,M,Low,Doctor,Stroke,Yes,Yes,Obesity,High,Guinea,More than 5 hours,13,Salmon,"['Protein', 'Omega-3']"
+68,M,Low,Engineer,Osteoporosis,No,Yes,Hypertension,High,Niger,More than 5 hours,72,Garlic,['Antioxidants']
+43,F,Middle,Engineer,Asthma,Yes,Yes,Respiratory problems,High,Cape Verde,5 hours,44,Tomatoes,"['Potassium', 'Vitamin C']"
+30,M,Middle,Teacher,Hypertension,Yes,Yes,Hypertension,Low,Niger,More than 5 hours,82,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+63,M,Low,Retired,Respiratory problems,Yes,Yes,Arthritis,High,Ghana,More than 5 hours,99,Carrot,"['Vitamin A', 'Fiber']"
+8,F,Low,Teacher,Stroke,Yes,No,Stroke,Medium,Guinea-Bissau,5 hours,144,Banana,"['Potassium', 'Carbohydrates']"
+58,F,Middle,Developer,Diabetes type 2,Yes,No,Stroke,High,Ghana,5 hours,84,Bananas,"['Vitamin B6', 'Fiber']"
+18,M,Middle,Teacher,Hypertension,No,Yes,None,Medium,Senegal,More than 5 hours,175,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+24,M,Middle,Engineer,Diabetes type 2,No,No,Respiratory problems,High,Burkina Faso,More than 5 hours,8,Rice,['Carbohydrates']
+63,F,Middle,Teacher,Hypertension,Yes,No,Diabetes type 2,Medium,Niger,More than 5 hours,136,Rice,['Carbohydrates']
+45,M,High,Teacher,Diabetes type 2,No,No,Hypertension,Low,Benin,2 hours,98,Salmon,"['Protein', 'Omega-3']"
+21,M,High,Doctor,Asthma,No,Yes,Obesity,High,Ivory Cost,2 hours,147,Lean beef,"['Protein', 'Iron']"
+42,F,High,Engineer,Respiratory problems,No,Yes,Arthritis,Low,Benin,2 hours,134,Coconuts,"['Fiber', 'Fatty acids']"
+27,F,Low,Doctor,None,Yes,Yes,Obesity,Medium,Ivory Cost,5 hours,88,Lean beef,"['Protein', 'Iron']"
+45,F,Low,Developer,Osteoporosis,Yes,Yes,Osteoporosis,Low,Ghana,More than 5 hours,60,Bananas,"['Vitamin B6', 'Fiber']"
+55,M,High,Doctor,Diabetes type 2,Yes,No,Obesity,High,Cape Verde,More than 5 hours,81,Bananas,"['Vitamin B6', 'Fiber']"
+63,M,Middle,Engineer,Osteoporosis,Yes,Yes,Obesity,High,Ghana,More than 5 hours,101,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+60,F,Middle,Doctor,Diabetes type 2,Yes,Yes,Obesity,Medium,Niger,More than 5 hours,165,Coconuts,"['Fiber', 'Fatty acids']"
+33,M,Low,Teacher,Hypertension,Yes,No,Stroke,Low,Gambia,5 hours,117,Salmon,"['Protein', 'Omega-3']"
+38,F,High,Developer,Diabetes type 2,No,Yes,Obesity,Low,Benin,2 hours,132,Bread,['Carbohydrates']
+5,F,Middle,Developer,Respiratory problems,Yes,No,Stroke,Low,Gambia,2 hours,49,Salmon,"['Protein', 'Omega-3']"
+48,M,Low,Driver,Diabetes type 2,Yes,No,None,Low,Cape Verde,5 hours,139,Rice,['Carbohydrates']
+51,F,Middle,Driver,None,Yes,No,None,Low,Liberia,5 hours,37,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+23,M,High,Teacher,Respiratory problems,No,No,Stroke,Low,Senegal,More than 5 hours,51,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+73,F,Low,Developer,Osteoporosis,No,Yes,Respiratory problems,Medium,Liberia,More than 5 hours,28,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+46,M,Low,Teacher,Arthritis,Yes,No,Respiratory problems,Low,Togo,More than 5 hours,159,Coconuts,"['Fiber', 'Fatty acids']"
+19,F,Low,Driver,Hypertension,Yes,No,Respiratory problems,Low,Burkina Faso,5 hours,41,Bananas,"['Vitamin B6', 'Fiber']"
+5,F,High,Engineer,Respiratory problems,No,Yes,Hypertension,High,Niger,More than 5 hours,106,Salmon,"['Protein', 'Omega-3']"
+16,F,Low,Developer,Hypertension,Yes,Yes,Osteoporosis,Low,Benin,More than 5 hours,70,Garlic,['Antioxidants']
+23,F,High,Driver,Diabetes type 2,Yes,No,Hypertension,High,Niger,More than 5 hours,106,Bananas,"['Vitamin B6', 'Fiber']"
+26,F,Low,Developer,Asthma,No,Yes,Respiratory problems,High,Mali,5 hours,106,Bananas,"['Vitamin B6', 'Fiber']"
+12,M,Low,Teacher,None,No,Yes,Obesity,Medium,Togo,2 hours,171,Spinach,"['Iron', 'Fiber']"
+48,F,Low,Developer,Asthma,Yes,No,Hypertension,High,Togo,5 hours,30,Tomatoes,"['Potassium', 'Vitamin C']"
+75,F,Middle,Doctor,None,Yes,No,Asthma,Medium,Cape Verde,More than 5 hours,87,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+7,F,Middle,Doctor,Osteoporosis,Yes,Yes,Osteoporosis,Low,Ivory Cost,5 hours,150,Chicken,['Protein']
+75,M,High,Engineer,Respiratory problems,Yes,No,Obesity,Medium,Mali,More than 5 hours,70,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+75,F,Low,Doctor,Osteoporosis,No,Yes,Stroke,High,Sierra Leone,2 hours,161,Lean beef,"['Protein', 'Iron']"
+47,F,Low,Driver,Arthritis,Yes,No,Asthma,Low,Guinea-Bissau,5 hours,30,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+23,F,Middle,Developer,None,Yes,No,Asthma,Low,Ivory Cost,2 hours,94,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+7,M,High,Engineer,None,No,No,Stroke,High,Ivory Cost,5 hours,25,Chocolate,['Sugar']
+41,M,Low,Driver,Respiratory problems,Yes,Yes,Asthma,Medium,Burkina Faso,2 hours,95,Tomatoes,"['Potassium', 'Vitamin C']"
+66,F,Low,Developer,Obesity,No,No,None,Medium,Senegal,2 hours,105,Apple,"['Vitamin C', 'Fiber']"
+38,F,Low,Teacher,Stroke,No,Yes,Obesity,Low,Togo,2 hours,163,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+26,F,Low,Driver,Obesity,Yes,No,Osteoporosis,Low,Niger,More than 5 hours,128,Rice,['Carbohydrates']
+71,F,Middle,Retired,Osteoporosis,No,No,Hypertension,Low,Sierra Leone,More than 5 hours,95,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+41,F,High,Doctor,None,No,Yes,Stroke,High,Togo,2 hours,169,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+29,M,Middle,Driver,None,Yes,No,Obesity,Low,Liberia,5 hours,114,Chocolate,['Sugar']
+29,M,Low,Developer,Diabetes type 2,Yes,No,Stroke,High,Benin,5 hours,23,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+46,F,Middle,Engineer,Arthritis,Yes,Yes,Osteoporosis,Medium,Ivory Cost,5 hours,29,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+39,F,High,Retired,Obesity,No,Yes,Asthma,Medium,Senegal,More than 5 hours,91,Rice,['Carbohydrates']
+46,M,Middle,Engineer,Diabetes type 2,No,No,Respiratory problems,High,Gambia,5 hours,22,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+36,M,Middle,Doctor,Asthma,Yes,No,Osteoporosis,High,Cape Verde,More than 5 hours,35,Chocolate,['Sugar']
+66,M,High,Developer,Obesity,Yes,Yes,Diabetes type 2,High,Burkina Faso,5 hours,111,Rice,['Carbohydrates']
+18,M,High,Retired,Hypertension,No,Yes,Diabetes type 2,High,Guinea,More than 5 hours,76,Coconuts,"['Fiber', 'Fatty acids']"
+30,F,High,Developer,Diabetes type 2,Yes,No,Obesity,Medium,Gambia,5 hours,10,Banana,"['Potassium', 'Carbohydrates']"
+63,M,High,Retired,Diabetes type 2,No,Yes,Osteoporosis,Low,Burkina Faso,More than 5 hours,15,Bread,['Carbohydrates']
+38,F,Low,Retired,Arthritis,Yes,Yes,Arthritis,High,Liberia,5 hours,129,Carrot,"['Vitamin A', 'Fiber']"
+48,F,High,Teacher,Asthma,Yes,Yes,Osteoporosis,Low,Ghana,5 hours,21,Carrot,"['Vitamin A', 'Fiber']"
+32,M,High,Driver,Hypertension,No,Yes,Arthritis,Medium,Benin,2 hours,45,Cucumber,['Vitamin K']
+27,M,High,Engineer,Asthma,Yes,No,Hypertension,High,Mali,More than 5 hours,173,Garlic,['Antioxidants']
+68,F,Middle,Driver,Asthma,Yes,Yes,None,Low,Mali,2 hours,142,Garlic,['Antioxidants']
+5,F,Middle,Driver,Asthma,No,Yes,Obesity,High,Gambia,5 hours,61,Tomatoes,"['Potassium', 'Vitamin C']"
+14,F,Low,Engineer,Obesity,Yes,No,None,High,Mali,2 hours,15,Banana,"['Potassium', 'Carbohydrates']"
+49,M,High,Doctor,Osteoporosis,Yes,No,Obesity,High,Burkina Faso,2 hours,37,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+31,M,Low,Developer,Arthritis,No,Yes,Arthritis,Medium,Ghana,More than 5 hours,109,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+12,F,Low,Developer,Arthritis,Yes,Yes,Arthritis,Low,Gambia,5 hours,70,Garlic,['Antioxidants']
+23,M,Middle,Engineer,Respiratory problems,No,Yes,Osteoporosis,Medium,Gambia,2 hours,154,Coconuts,"['Fiber', 'Fatty acids']"
+24,M,High,Driver,Osteoporosis,Yes,No,Hypertension,High,Mali,5 hours,5,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+16,M,High,Retired,Hypertension,Yes,Yes,Respiratory problems,Medium,Togo,More than 5 hours,163,Cucumber,['Vitamin K']
+73,F,Low,Driver,Respiratory problems,No,Yes,Hypertension,High,Ghana,5 hours,127,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+17,M,High,Driver,None,No,No,None,Medium,Mali,2 hours,114,Carrot,"['Vitamin A', 'Fiber']"
+17,F,Low,Engineer,Osteoporosis,No,Yes,Asthma,Low,Sierra Leone,More than 5 hours,160,Chocolate,['Sugar']
+31,M,High,Retired,Hypertension,Yes,Yes,None,High,Niger,5 hours,19,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+21,M,Low,Teacher,Obesity,Yes,Yes,Diabetes type 2,High,Guinea-Bissau,More than 5 hours,92,Chocolate,['Sugar']
+63,M,High,Engineer,None,No,No,None,Low,Ghana,More than 5 hours,49,Bread,['Carbohydrates']
+62,M,Middle,Developer,None,No,No,None,High,Guinea,5 hours,71,Cucumber,['Vitamin K']
+14,F,Low,Retired,Obesity,Yes,Yes,Respiratory problems,Low,Guinea-Bissau,5 hours,75,Cheese,"['Calcium', 'Protein']"
+32,M,High,Retired,Hypertension,Yes,Yes,Arthritis,High,Ghana,More than 5 hours,106,Rice,['Carbohydrates']
+60,M,High,Driver,None,Yes,No,Respiratory problems,Low,Sierra Leone,More than 5 hours,26,Bread,['Carbohydrates']
+43,M,Middle,Doctor,Respiratory problems,Yes,Yes,Hypertension,High,Burkina Faso,5 hours,128,Chicken,['Protein']
+64,F,High,Doctor,Obesity,Yes,Yes,Diabetes type 2,Low,Niger,More than 5 hours,123,Carrot,"['Vitamin A', 'Fiber']"
+44,M,High,Doctor,Arthritis,No,Yes,Osteoporosis,High,Cape Verde,More than 5 hours,41,Garlic,['Antioxidants']
+58,F,Middle,Driver,Hypertension,No,No,Asthma,Medium,Sierra Leone,5 hours,106,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+64,M,Low,Teacher,Arthritis,Yes,No,Obesity,Medium,Guinea,More than 5 hours,36,Lean beef,"['Protein', 'Iron']"
+47,M,Low,Driver,Arthritis,No,No,Respiratory problems,Low,Ivory Cost,2 hours,145,Bluberries,['Antioxidants']
+53,F,High,Engineer,Asthma,No,No,Stroke,Medium,Niger,2 hours,22,Lean beef,"['Protein', 'Iron']"
+58,M,Low,Doctor,Asthma,No,No,Asthma,Medium,Gambia,More than 5 hours,117,Cheese,"['Calcium', 'Protein']"
+18,F,High,Teacher,Asthma,Yes,No,Arthritis,High,Guinea,5 hours,142,Lean beef,"['Protein', 'Iron']"
+48,M,Middle,Retired,Osteoporosis,Yes,No,Hypertension,Low,Gambia,2 hours,146,Banana,"['Potassium', 'Carbohydrates']"
+53,M,Middle,Retired,Arthritis,No,Yes,Respiratory problems,Low,Senegal,5 hours,159,Eggs,['Protein']
+19,M,Low,Retired,Obesity,No,No,Obesity,Low,Gambia,5 hours,41,Banana,"['Potassium', 'Carbohydrates']"
+6,F,High,Engineer,Hypertension,Yes,No,Stroke,Medium,Niger,2 hours,124,Apple,"['Vitamin C', 'Fiber']"
+33,F,Low,Driver,Diabetes type 2,No,Yes,None,High,Liberia,More than 5 hours,148,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+22,F,Low,Teacher,Diabetes type 2,No,Yes,Obesity,Medium,Niger,2 hours,60,Apple,"['Vitamin C', 'Fiber']"
+6,M,Middle,Teacher,None,Yes,No,Stroke,Low,Benin,5 hours,38,Apple,"['Vitamin C', 'Fiber']"
+49,M,High,Retired,Stroke,Yes,Yes,None,Medium,Sierra Leone,More than 5 hours,174,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+49,M,Middle,Retired,Hypertension,Yes,Yes,Arthritis,High,Cape Verde,More than 5 hours,157,Chocolate,['Sugar']
+7,M,Middle,Doctor,Obesity,No,Yes,Diabetes type 2,Medium,Gambia,5 hours,98,Carrot,"['Vitamin A', 'Fiber']"
+68,F,High,Doctor,Hypertension,No,No,Hypertension,Low,Guinea,More than 5 hours,158,Cheese,"['Calcium', 'Protein']"
+20,M,Low,Driver,Arthritis,No,No,None,High,Niger,2 hours,43,Apple,"['Vitamin C', 'Fiber']"
+37,F,Low,Teacher,Diabetes type 2,No,No,Obesity,High,Cape Verde,More than 5 hours,103,Cheese,"['Calcium', 'Protein']"
+41,M,Low,Retired,Obesity,No,No,Respiratory problems,Medium,Niger,More than 5 hours,78,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+74,M,High,Developer,Obesity,No,Yes,Osteoporosis,High,Burkina Faso,2 hours,154,Bananas,"['Vitamin B6', 'Fiber']"
+26,F,Low,Doctor,Diabetes type 2,Yes,No,Obesity,Medium,Liberia,2 hours,81,Cucumber,['Vitamin K']
+15,M,High,Driver,Stroke,No,Yes,Asthma,Low,Burkina Faso,More than 5 hours,91,Cucumber,['Vitamin K']
+68,M,Low,Driver,Hypertension,Yes,Yes,Arthritis,Medium,Burkina Faso,2 hours,159,Chocolate,['Sugar']
+57,M,Low,Developer,Arthritis,Yes,Yes,Hypertension,Medium,Mali,2 hours,25,Rice,['Carbohydrates']
+35,F,High,Driver,Stroke,No,No,Hypertension,High,Guinea,2 hours,12,Chicken,['Protein']
+69,F,Low,Retired,Osteoporosis,Yes,Yes,Diabetes type 2,Medium,Senegal,More than 5 hours,23,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+15,M,Middle,Driver,Respiratory problems,Yes,No,Hypertension,High,Nigeria,More than 5 hours,118,Tomatoes,"['Potassium', 'Vitamin C']"
+5,M,High,Engineer,Diabetes type 2,Yes,No,Stroke,High,Niger,2 hours,13,Cucumber,['Vitamin K']
+57,F,Middle,Driver,Arthritis,Yes,No,Asthma,High,Benin,2 hours,28,Cucumber,['Vitamin K']
+54,F,Middle,Retired,Arthritis,No,Yes,Arthritis,Low,Liberia,5 hours,35,Cucumber,['Vitamin K']
+8,F,High,Developer,None,No,Yes,Stroke,High,Togo,2 hours,69,Garlic,['Antioxidants']
+19,M,Middle,Doctor,Diabetes type 2,Yes,Yes,Stroke,Low,Sierra Leone,5 hours,19,Lean beef,"['Protein', 'Iron']"
+35,M,Middle,Driver,Respiratory problems,No,No,Osteoporosis,Medium,Ivory Cost,5 hours,70,Banana,"['Potassium', 'Carbohydrates']"
+12,F,Low,Retired,Asthma,No,Yes,Arthritis,Low,Mali,5 hours,20,Bread,['Carbohydrates']
+64,F,Low,Doctor,Obesity,No,Yes,Obesity,Low,Guinea,5 hours,8,Garlic,['Antioxidants']
+31,F,High,Driver,Obesity,Yes,No,Asthma,Medium,Burkina Faso,5 hours,22,Banana,"['Potassium', 'Carbohydrates']"
+38,M,Middle,Teacher,Respiratory problems,Yes,No,Obesity,Medium,Togo,More than 5 hours,44,Rice,['Carbohydrates']
+35,F,High,Engineer,Arthritis,Yes,No,Stroke,High,Liberia,More than 5 hours,136,Spinach,"['Iron', 'Fiber']"
+8,M,Low,Driver,Diabetes type 2,Yes,Yes,Asthma,Medium,Senegal,More than 5 hours,9,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+36,F,High,Teacher,Obesity,Yes,Yes,Hypertension,Low,Nigeria,2 hours,44,Eggs,['Protein']
+28,M,Middle,Engineer,Obesity,Yes,Yes,Asthma,Low,Gambia,2 hours,166,Spinach,"['Iron', 'Fiber']"
+34,M,Middle,Developer,Obesity,No,Yes,Osteoporosis,Low,Togo,5 hours,99,Tomatoes,"['Potassium', 'Vitamin C']"
+50,M,High,Engineer,Arthritis,No,No,Asthma,Medium,Nigeria,5 hours,2,Tomatoes,"['Potassium', 'Vitamin C']"
+61,F,High,Retired,Asthma,No,Yes,Obesity,Medium,Togo,More than 5 hours,132,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+32,F,Low,Engineer,Diabetes type 2,Yes,No,Obesity,High,Niger,More than 5 hours,126,Rice,['Carbohydrates']
+32,M,Middle,Engineer,Asthma,No,Yes,Obesity,Medium,Senegal,More than 5 hours,22,Chocolate,['Sugar']
+64,F,Low,Doctor,Obesity,No,Yes,Obesity,Low,Liberia,More than 5 hours,50,Bananas,"['Vitamin B6', 'Fiber']"
+22,M,High,Developer,Arthritis,Yes,No,Stroke,Medium,Guinea,2 hours,152,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+46,M,Low,Developer,Stroke,Yes,No,Stroke,Low,Ghana,2 hours,162,Cheese,"['Calcium', 'Protein']"
+33,M,Middle,Teacher,Obesity,Yes,Yes,Respiratory problems,Medium,Mali,2 hours,26,Bananas,"['Vitamin B6', 'Fiber']"
+24,F,High,Teacher,Osteoporosis,No,No,Hypertension,High,Mali,2 hours,174,Cheese,"['Calcium', 'Protein']"
+12,M,Low,Driver,None,Yes,No,Osteoporosis,Medium,Sierra Leone,5 hours,6,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+20,F,Low,Developer,Arthritis,Yes,Yes,Arthritis,High,Cape Verde,2 hours,80,Rice,['Carbohydrates']
+45,F,Low,Developer,Osteoporosis,Yes,Yes,Diabetes type 2,High,Guinea-Bissau,2 hours,43,Rice,['Carbohydrates']
+65,F,Low,Developer,Hypertension,Yes,Yes,Hypertension,Low,Ghana,More than 5 hours,82,Carrot,"['Vitamin A', 'Fiber']"
+56,M,High,Developer,Asthma,No,Yes,Stroke,High,Benin,More than 5 hours,133,Banana,"['Potassium', 'Carbohydrates']"
+46,F,Middle,Retired,Respiratory problems,Yes,Yes,Arthritis,Low,Ivory Cost,More than 5 hours,165,Cucumber,['Vitamin K']
+18,M,High,Driver,Obesity,No,No,Osteoporosis,High,Burkina Faso,2 hours,10,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+25,F,Low,Teacher,Osteoporosis,Yes,No,Hypertension,High,Guinea-Bissau,More than 5 hours,110,Banana,"['Potassium', 'Carbohydrates']"
+53,F,Middle,Engineer,Asthma,Yes,No,None,High,Togo,5 hours,135,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+45,M,Middle,Engineer,Respiratory problems,Yes,No,Stroke,High,Guinea-Bissau,5 hours,89,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+69,M,Middle,Driver,Asthma,No,No,Obesity,Medium,Senegal,5 hours,31,Chocolate,['Sugar']
+18,F,Middle,Developer,Respiratory problems,Yes,Yes,Hypertension,Medium,Guinea-Bissau,More than 5 hours,51,Cheese,"['Calcium', 'Protein']"
+29,F,Low,Engineer,Hypertension,Yes,Yes,Respiratory problems,Low,Gambia,More than 5 hours,85,Lean beef,"['Protein', 'Iron']"
+58,M,High,Teacher,None,Yes,Yes,Diabetes type 2,Medium,Nigeria,5 hours,62,Tomatoes,"['Potassium', 'Vitamin C']"
+41,F,Low,Driver,Obesity,Yes,No,Diabetes type 2,Low,Guinea,2 hours,63,Carrot,"['Vitamin A', 'Fiber']"
+55,F,Low,Developer,Respiratory problems,Yes,No,Obesity,High,Togo,More than 5 hours,20,Bluberries,['Antioxidants']
+15,F,High,Driver,None,No,Yes,Arthritis,Low,Nigeria,More than 5 hours,168,Cheese,"['Calcium', 'Protein']"
+39,M,Middle,Doctor,Arthritis,No,Yes,Obesity,Medium,Ivory Cost,2 hours,112,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+70,F,Low,Developer,Osteoporosis,No,No,Diabetes type 2,High,Benin,More than 5 hours,97,Spinach,"['Iron', 'Fiber']"
+46,M,High,Engineer,Osteoporosis,Yes,Yes,Obesity,High,Mali,5 hours,35,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+50,M,High,Driver,Hypertension,No,Yes,Obesity,Medium,Ghana,2 hours,18,Bread,['Carbohydrates']
+10,F,High,Doctor,Diabetes type 2,No,No,Stroke,Medium,Cape Verde,More than 5 hours,47,Rice,['Carbohydrates']
+72,M,Low,Engineer,Asthma,Yes,Yes,Hypertension,High,Nigeria,More than 5 hours,136,Cheese,"['Calcium', 'Protein']"
+11,M,Low,Teacher,Hypertension,Yes,No,Hypertension,Medium,Senegal,More than 5 hours,153,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+25,M,High,Developer,Diabetes type 2,Yes,Yes,Arthritis,High,Nigeria,5 hours,88,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+12,F,Middle,Engineer,Hypertension,Yes,No,Obesity,Medium,Guinea,5 hours,54,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+65,F,Middle,Engineer,Stroke,Yes,Yes,Respiratory problems,High,Niger,5 hours,101,Chicken,['Protein']
+5,F,High,Doctor,Asthma,No,Yes,Arthritis,High,Benin,5 hours,102,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+7,F,Middle,Teacher,Obesity,No,No,Arthritis,Low,Sierra Leone,2 hours,2,Rice,['Carbohydrates']
+59,M,Middle,Doctor,Asthma,No,Yes,Osteoporosis,Medium,Guinea,2 hours,24,Spinach,"['Iron', 'Fiber']"
+24,F,Low,Engineer,Arthritis,Yes,Yes,Arthritis,Medium,Senegal,5 hours,111,Cucumber,['Vitamin K']
+62,M,High,Retired,Asthma,Yes,No,Asthma,Low,Guinea,More than 5 hours,75,Eggs,['Protein']
+17,F,High,Driver,Arthritis,Yes,Yes,Osteoporosis,High,Sierra Leone,5 hours,71,Spinach,"['Iron', 'Fiber']"
+49,M,Middle,Teacher,Asthma,Yes,No,Asthma,Medium,Guinea-Bissau,2 hours,39,Garlic,['Antioxidants']
+45,M,Middle,Retired,Asthma,No,No,Diabetes type 2,High,Niger,5 hours,149,Carrot,"['Vitamin A', 'Fiber']"
+36,M,High,Retired,Osteoporosis,Yes,Yes,Obesity,Low,Sierra Leone,2 hours,45,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+48,M,High,Developer,Respiratory problems,Yes,Yes,Diabetes type 2,High,Sierra Leone,2 hours,61,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+75,M,Low,Teacher,Stroke,Yes,No,Diabetes type 2,Medium,Gambia,5 hours,173,Spinach,"['Iron', 'Fiber']"
+16,F,Middle,Doctor,Stroke,Yes,Yes,None,High,Benin,2 hours,74,Salmon,"['Protein', 'Omega-3']"
+51,M,High,Engineer,None,Yes,No,Asthma,High,Sierra Leone,2 hours,100,Bluberries,['Antioxidants']
+38,F,High,Developer,Respiratory problems,No,Yes,Osteoporosis,Medium,Senegal,More than 5 hours,130,Bluberries,['Antioxidants']
+10,M,Low,Doctor,Asthma,Yes,No,Diabetes type 2,High,Niger,More than 5 hours,137,Eggs,['Protein']
+71,F,Low,Engineer,Obesity,Yes,Yes,Hypertension,Low,Guinea,5 hours,54,Salmon,"['Protein', 'Omega-3']"
+62,F,Low,Doctor,None,Yes,Yes,None,Low,Gambia,2 hours,26,Bread,['Carbohydrates']
+67,M,Low,Developer,Obesity,Yes,No,None,Low,Liberia,2 hours,23,Bananas,"['Vitamin B6', 'Fiber']"
+50,M,High,Teacher,Respiratory problems,No,Yes,None,Medium,Ghana,2 hours,30,Spinach,"['Iron', 'Fiber']"
+38,M,Low,Developer,Diabetes type 2,Yes,No,Stroke,High,Niger,5 hours,100,Tomatoes,"['Potassium', 'Vitamin C']"
+7,F,Middle,Retired,Stroke,Yes,Yes,Hypertension,Low,Mali,More than 5 hours,129,Bananas,"['Vitamin B6', 'Fiber']"
+42,M,Middle,Engineer,Hypertension,Yes,Yes,Arthritis,Medium,Benin,5 hours,33,Tomatoes,"['Potassium', 'Vitamin C']"
+5,M,Low,Engineer,Osteoporosis,Yes,No,Diabetes type 2,High,Guinea,More than 5 hours,10,Cheese,"['Calcium', 'Protein']"
+40,M,Low,Doctor,Diabetes type 2,Yes,No,Stroke,Low,Mali,More than 5 hours,37,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+56,M,High,Teacher,Osteoporosis,No,Yes,Osteoporosis,High,Niger,More than 5 hours,144,Garlic,['Antioxidants']
+64,M,High,Teacher,Asthma,No,Yes,Stroke,High,Sierra Leone,5 hours,137,Carrot,"['Vitamin A', 'Fiber']"
+33,F,Middle,Teacher,Respiratory problems,No,Yes,Diabetes type 2,Medium,Liberia,2 hours,35,Chocolate,['Sugar']
+59,F,Middle,Driver,None,No,No,Osteoporosis,Medium,Gambia,5 hours,40,Lean beef,"['Protein', 'Iron']"
+59,F,Middle,Retired,Diabetes type 2,No,Yes,Osteoporosis,Medium,Guinea,5 hours,64,Bananas,"['Vitamin B6', 'Fiber']"
+55,M,High,Engineer,Stroke,No,No,Hypertension,High,Nigeria,5 hours,44,Bread,['Carbohydrates']
+28,F,Middle,Developer,Osteoporosis,No,No,Hypertension,Medium,Benin,5 hours,104,Lean beef,"['Protein', 'Iron']"
+61,F,Middle,Doctor,Osteoporosis,Yes,Yes,Respiratory problems,High,Gambia,More than 5 hours,6,Tomatoes,"['Potassium', 'Vitamin C']"
+17,F,High,Retired,Osteoporosis,No,No,Asthma,Low,Burkina Faso,5 hours,171,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+58,F,Low,Teacher,Arthritis,Yes,Yes,Respiratory problems,Low,Ghana,More than 5 hours,118,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+30,F,High,Driver,Hypertension,Yes,No,Stroke,High,Togo,2 hours,54,Spinach,"['Iron', 'Fiber']"
+61,F,Middle,Developer,Osteoporosis,Yes,Yes,Respiratory problems,Medium,Ghana,More than 5 hours,132,Spinach,"['Iron', 'Fiber']"
+38,M,High,Teacher,Arthritis,Yes,Yes,Diabetes type 2,Low,Cape Verde,5 hours,83,Bluberries,['Antioxidants']
+62,F,Low,Engineer,Hypertension,Yes,No,Arthritis,Medium,Niger,More than 5 hours,160,Eggs,['Protein']
+61,F,Middle,Engineer,Asthma,Yes,No,Stroke,High,Benin,2 hours,8,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+34,F,High,Retired,Arthritis,No,Yes,Arthritis,Low,Guinea-Bissau,More than 5 hours,162,Apple,"['Vitamin C', 'Fiber']"
+27,F,Low,Retired,Obesity,Yes,Yes,Asthma,High,Guinea,5 hours,22,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+57,F,Middle,Engineer,Osteoporosis,No,No,Osteoporosis,Medium,Gambia,2 hours,163,Banana,"['Potassium', 'Carbohydrates']"
+65,F,Middle,Engineer,Diabetes type 2,Yes,Yes,Hypertension,High,Senegal,2 hours,101,Eggs,['Protein']
+70,M,Low,Developer,Obesity,No,No,Obesity,Medium,Burkina Faso,More than 5 hours,3,Bluberries,['Antioxidants']
+37,F,Low,Doctor,Obesity,Yes,Yes,Respiratory problems,Medium,Ivory Cost,2 hours,29,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+34,F,Low,Teacher,Respiratory problems,Yes,No,Osteoporosis,Medium,Burkina Faso,More than 5 hours,110,Coconuts,"['Fiber', 'Fatty acids']"
+56,F,Middle,Developer,Respiratory problems,Yes,No,Hypertension,Medium,Ghana,More than 5 hours,57,Chocolate,['Sugar']
+69,M,High,Engineer,Obesity,No,No,Stroke,Medium,Ivory Cost,More than 5 hours,161,Spinach,"['Iron', 'Fiber']"
+75,M,Low,Driver,Respiratory problems,Yes,Yes,Arthritis,Medium,Sierra Leone,5 hours,129,Apple,"['Vitamin C', 'Fiber']"
+46,M,Middle,Engineer,Osteoporosis,Yes,Yes,Respiratory problems,Medium,Togo,5 hours,83,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+65,F,High,Driver,Respiratory problems,Yes,No,Respiratory problems,High,Benin,5 hours,90,Apple,"['Vitamin C', 'Fiber']"
+60,M,Middle,Developer,Arthritis,Yes,No,Osteoporosis,High,Niger,5 hours,145,Cucumber,['Vitamin K']
+59,M,High,Driver,Arthritis,No,No,Arthritis,High,Burkina Faso,5 hours,11,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+9,M,High,Doctor,Arthritis,No,Yes,Hypertension,High,Senegal,2 hours,91,Chocolate,['Sugar']
+61,F,Low,Engineer,Asthma,Yes,No,Asthma,Low,Togo,5 hours,107,Chocolate,['Sugar']
+51,M,Low,Engineer,Obesity,Yes,Yes,Obesity,High,Burkina Faso,2 hours,133,Bluberries,['Antioxidants']
+39,M,Middle,Engineer,Stroke,Yes,Yes,Osteoporosis,Low,Burkina Faso,More than 5 hours,40,Bluberries,['Antioxidants']
+20,M,Middle,Retired,Obesity,Yes,No,Osteoporosis,Low,Ghana,5 hours,130,Rice,['Carbohydrates']
+41,F,Low,Teacher,Asthma,Yes,Yes,Osteoporosis,High,Senegal,More than 5 hours,116,Apple,"['Vitamin C', 'Fiber']"
+48,M,High,Engineer,None,No,No,Obesity,Medium,Nigeria,5 hours,125,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+67,M,Low,Developer,None,No,No,Respiratory problems,Medium,Benin,5 hours,46,Rice,['Carbohydrates']
+53,F,Low,Driver,Respiratory problems,No,No,Stroke,High,Liberia,5 hours,121,Coconuts,"['Fiber', 'Fatty acids']"
+57,F,Low,Driver,Obesity,Yes,No,Obesity,Medium,Mali,2 hours,104,Bananas,"['Vitamin B6', 'Fiber']"
+50,F,Middle,Developer,Respiratory problems,Yes,Yes,Arthritis,Low,Senegal,5 hours,157,Apple,"['Vitamin C', 'Fiber']"
+59,F,High,Doctor,None,No,Yes,Hypertension,Low,Guinea-Bissau,More than 5 hours,174,Banana,"['Potassium', 'Carbohydrates']"
+46,F,Middle,Engineer,Osteoporosis,No,Yes,Osteoporosis,Medium,Niger,5 hours,55,Bluberries,['Antioxidants']
+41,M,High,Driver,Diabetes type 2,Yes,No,Obesity,High,Burkina Faso,2 hours,56,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+55,F,Low,Doctor,Stroke,Yes,Yes,Stroke,Medium,Burkina Faso,5 hours,44,Tomatoes,"['Potassium', 'Vitamin C']"
+14,M,Middle,Developer,Diabetes type 2,Yes,No,None,High,Sierra Leone,5 hours,13,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+26,M,Middle,Doctor,Stroke,Yes,No,Stroke,High,Niger,2 hours,132,Salmon,"['Protein', 'Omega-3']"
+32,M,Low,Doctor,Hypertension,No,Yes,Arthritis,Medium,Guinea,2 hours,119,Banana,"['Potassium', 'Carbohydrates']"
+59,F,Low,Developer,Stroke,No,Yes,Respiratory problems,Medium,Niger,More than 5 hours,122,Coconuts,"['Fiber', 'Fatty acids']"
+9,F,Low,Driver,Arthritis,Yes,Yes,Hypertension,Medium,Benin,5 hours,70,Chocolate,['Sugar']
+74,F,High,Retired,Obesity,No,No,Arthritis,Low,Gambia,More than 5 hours,7,Lean beef,"['Protein', 'Iron']"
+58,F,High,Retired,Respiratory problems,No,No,Osteoporosis,Medium,Senegal,More than 5 hours,42,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+24,F,High,Doctor,None,Yes,No,Stroke,Low,Guinea,5 hours,156,Cucumber,['Vitamin K']
+47,M,Low,Developer,Diabetes type 2,Yes,Yes,Osteoporosis,Low,Guinea,More than 5 hours,18,Rice,['Carbohydrates']
+60,F,Middle,Driver,Osteoporosis,Yes,No,Arthritis,Medium,Nigeria,5 hours,133,Eggs,['Protein']
+12,M,High,Engineer,Obesity,No,No,Respiratory problems,Medium,Guinea-Bissau,5 hours,119,Eggs,['Protein']
+66,M,Middle,Engineer,Diabetes type 2,No,No,Respiratory problems,High,Nigeria,5 hours,104,Garlic,['Antioxidants']
+74,F,High,Driver,Asthma,No,Yes,Obesity,High,Guinea,2 hours,88,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+37,F,Low,Engineer,Osteoporosis,No,No,Stroke,Medium,Burkina Faso,5 hours,14,Bread,['Carbohydrates']
+33,F,High,Doctor,Diabetes type 2,No,No,Stroke,High,Cape Verde,More than 5 hours,132,Rice,['Carbohydrates']
+11,M,Middle,Teacher,Asthma,Yes,Yes,Osteoporosis,Medium,Liberia,2 hours,52,Lean beef,"['Protein', 'Iron']"
+49,M,Low,Driver,Stroke,Yes,Yes,Stroke,Low,Ghana,5 hours,2,Cheese,"['Calcium', 'Protein']"
+31,M,Middle,Teacher,Diabetes type 2,No,Yes,Osteoporosis,Medium,Ivory Cost,5 hours,75,Chocolate,['Sugar']
+25,F,High,Developer,None,No,Yes,Asthma,Low,Togo,2 hours,34,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+68,F,Low,Driver,Diabetes type 2,Yes,No,Osteoporosis,Low,Senegal,2 hours,168,Chicken,['Protein']
+24,F,Low,Retired,Hypertension,Yes,Yes,Diabetes type 2,High,Guinea-Bissau,2 hours,122,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+23,F,Middle,Retired,Asthma,No,Yes,Asthma,High,Guinea,2 hours,13,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+33,M,Middle,Driver,Stroke,No,Yes,Asthma,Medium,Benin,5 hours,170,Eggs,['Protein']
+29,M,Middle,Retired,Asthma,No,No,Obesity,High,Nigeria,5 hours,139,Bluberries,['Antioxidants']
+72,F,Low,Retired,Osteoporosis,Yes,No,Diabetes type 2,Low,Guinea,More than 5 hours,149,Apple,"['Vitamin C', 'Fiber']"
+34,M,Low,Engineer,Asthma,Yes,Yes,Asthma,High,Guinea-Bissau,5 hours,37,Salmon,"['Protein', 'Omega-3']"
+35,F,Low,Engineer,Hypertension,No,No,Hypertension,Low,Guinea,More than 5 hours,65,Apple,"['Vitamin C', 'Fiber']"
+45,M,Low,Developer,Obesity,Yes,Yes,Arthritis,High,Ivory Cost,5 hours,156,Chicken,['Protein']
+59,M,Low,Developer,Respiratory problems,No,Yes,Obesity,Medium,Ivory Cost,2 hours,67,Eggs,['Protein']
+28,F,Low,Retired,Diabetes type 2,No,No,Diabetes type 2,Medium,Togo,5 hours,65,Rice,['Carbohydrates']
+12,M,High,Doctor,Obesity,No,Yes,Osteoporosis,Low,Ghana,2 hours,37,Tomatoes,"['Potassium', 'Vitamin C']"
+47,M,Low,Teacher,Diabetes type 2,No,No,Respiratory problems,Low,Sierra Leone,2 hours,132,Eggs,['Protein']
+61,F,Middle,Doctor,Arthritis,Yes,Yes,Stroke,High,Togo,More than 5 hours,18,Bread,['Carbohydrates']
+62,M,High,Driver,Hypertension,Yes,No,Asthma,Low,Guinea,More than 5 hours,12,Bread,['Carbohydrates']
+32,F,Middle,Engineer,Arthritis,No,No,Diabetes type 2,Low,Cape Verde,More than 5 hours,87,Salmon,"['Protein', 'Omega-3']"
+50,M,Low,Driver,Osteoporosis,Yes,Yes,Stroke,Medium,Guinea-Bissau,2 hours,113,Chocolate,['Sugar']
+12,M,High,Driver,Respiratory problems,Yes,Yes,Diabetes type 2,Low,Gambia,5 hours,25,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+48,M,Low,Driver,Obesity,Yes,No,None,Medium,Sierra Leone,2 hours,27,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+14,M,Low,Retired,Hypertension,No,No,Osteoporosis,High,Guinea-Bissau,More than 5 hours,24,Coconuts,"['Fiber', 'Fatty acids']"
+54,M,High,Doctor,Diabetes type 2,Yes,No,Respiratory problems,Medium,Sierra Leone,5 hours,78,Eggs,['Protein']
+28,F,Middle,Doctor,Hypertension,Yes,Yes,Stroke,Medium,Mali,More than 5 hours,59,Salmon,"['Protein', 'Omega-3']"
+18,F,High,Retired,Arthritis,No,No,Osteoporosis,High,Guinea,More than 5 hours,20,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+69,M,Middle,Doctor,Diabetes type 2,Yes,Yes,Hypertension,Medium,Benin,5 hours,32,Chocolate,['Sugar']
+7,M,Low,Retired,Diabetes type 2,Yes,Yes,Obesity,Medium,Guinea-Bissau,More than 5 hours,104,Bluberries,['Antioxidants']
+63,M,High,Developer,Stroke,No,Yes,Hypertension,Medium,Ghana,5 hours,14,Salmon,"['Protein', 'Omega-3']"
+36,F,Middle,Teacher,None,No,Yes,Arthritis,Medium,Niger,More than 5 hours,159,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+62,M,Middle,Teacher,Stroke,No,No,None,High,Mali,More than 5 hours,43,Chocolate,['Sugar']
+70,M,Low,Driver,Osteoporosis,No,No,None,High,Togo,2 hours,44,Coconuts,"['Fiber', 'Fatty acids']"
+64,M,High,Retired,Hypertension,Yes,Yes,Hypertension,Medium,Togo,5 hours,136,Apple,"['Vitamin C', 'Fiber']"
+46,M,Low,Driver,Obesity,Yes,Yes,Diabetes type 2,Medium,Niger,More than 5 hours,157,Bread,['Carbohydrates']
+51,M,Middle,Engineer,Asthma,Yes,No,Asthma,High,Cape Verde,More than 5 hours,113,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+30,M,Middle,Doctor,Hypertension,Yes,Yes,Asthma,Medium,Ghana,5 hours,134,Eggs,['Protein']
+49,M,Low,Developer,Arthritis,Yes,Yes,None,Medium,Guinea,More than 5 hours,144,Apple,"['Vitamin C', 'Fiber']"
+65,F,High,Engineer,Osteoporosis,No,No,Diabetes type 2,Low,Sierra Leone,2 hours,22,Spinach,"['Iron', 'Fiber']"
+30,M,Middle,Teacher,Hypertension,Yes,No,Asthma,High,Burkina Faso,More than 5 hours,18,Coconuts,"['Fiber', 'Fatty acids']"
+29,M,High,Engineer,Diabetes type 2,Yes,No,Arthritis,Low,Liberia,5 hours,129,Eggs,['Protein']
+16,F,Low,Driver,Stroke,No,Yes,Asthma,Low,Liberia,More than 5 hours,18,Garlic,['Antioxidants']
+47,M,Low,Developer,Hypertension,No,No,None,Low,Sierra Leone,2 hours,45,Tomatoes,"['Potassium', 'Vitamin C']"
+33,F,Middle,Retired,Respiratory problems,No,No,Obesity,High,Togo,5 hours,172,Chicken,['Protein']
+16,F,Middle,Driver,Respiratory problems,Yes,No,Respiratory problems,Medium,Liberia,5 hours,60,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+53,M,Middle,Developer,Obesity,No,No,Respiratory problems,Medium,Guinea,More than 5 hours,151,Almonds,"['Vitamin E', 'Antioxidants', 'Magnesium', 'Fiber']"
+42,F,Middle,Retired,Diabetes type 2,No,Yes,Arthritis,Low,Cape Verde,5 hours,116,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+47,M,High,Engineer,Osteoporosis,Yes,Yes,Stroke,Low,Liberia,2 hours,147,Banana,"['Potassium', 'Carbohydrates']"
+25,M,Low,Developer,Asthma,Yes,Yes,Respiratory problems,High,Ghana,More than 5 hours,92,Lean beef,"['Protein', 'Iron']"
+42,M,Low,Developer,Hypertension,No,No,Hypertension,High,Gambia,5 hours,68,Rice,['Carbohydrates']
+41,F,Low,Teacher,Hypertension,No,Yes,Diabetes type 2,Medium,Burkina Faso,2 hours,10,Avocados,"['fiber', 'Potassium', 'Vitamin C']"
+52,M,High,Retired,None,Yes,No,Osteoporosis,Low,Mali,5 hours,58,Cheese,"['Calcium', 'Protein']"
+33,F,High,Retired,Hypertension,No,Yes,Asthma,High,Mali,5 hours,17,Apple,"['Vitamin C', 'Fiber']"
+29,F,Middle,Driver,Hypertension,No,Yes,Arthritis,Medium,Burkina Faso,More than 5 hours,80,Banana,"['Potassium', 'Carbohydrates']"
+51,M,Low,Engineer,Stroke,Yes,Yes,Arthritis,Medium,Ivory Cost,More than 5 hours,14,Tomatoes,"['Potassium', 'Vitamin C']"
+30,M,High,Driver,Obesity,No,No,None,High,Togo,5 hours,142,Eggs,['Protein']
+27,F,Middle,Retired,Osteoporosis,Yes,Yes,Obesity,Medium,Guinea-Bissau,More than 5 hours,44,Eggs,['Protein']
+72,F,High,Developer,Obesity,No,No,Asthma,Low,Burkina Faso,2 hours,12,Lean beef,"['Protein', 'Iron']"
+43,F,Low,Driver,Asthma,No,No,Osteoporosis,Medium,Ghana,5 hours,42,Salmon,"['Protein', 'Omega-3']"
+60,F,Middle,Driver,Hypertension,Yes,No,Diabetes type 2,Medium,Togo,More than 5 hours,116,Banana,"['Potassium', 'Carbohydrates']"
+20,M,Middle,Retired,Obesity,No,Yes,Hypertension,High,Guinea,2 hours,83,Banana,"['Potassium', 'Carbohydrates']"
+59,M,High,Doctor,Stroke,No,Yes,None,High,Guinea-Bissau,2 hours,102,Lean beef,"['Protein', 'Iron']"
+11,M,Middle,Retired,Stroke,Yes,Yes,Diabetes type 2,High,Cape Verde,5 hours,174,Bread,['Carbohydrates']
+60,M,High,Driver,Obesity,No,Yes,None,Low,Sierra Leone,5 hours,55,Chocolate,['Sugar']
+55,F,High,Retired,Osteoporosis,No,No,Diabetes type 2,Low,Nigeria,More than 5 hours,122,Chocolate,['Sugar']
+43,F,High,Driver,Diabetes type 2,Yes,Yes,Arthritis,Medium,Gambia,5 hours,12,Spinach,"['Iron', 'Fiber']"
+46,M,Middle,Teacher,Asthma,No,No,Diabetes type 2,Low,Nigeria,2 hours,146,Tomatoes,"['Potassium', 'Vitamin C']"
+73,F,Low,Retired,Asthma,No,No,Obesity,Medium,Senegal,5 hours,74,Cucumber,['Vitamin K']
+67,F,Low,Engineer,Diabetes type 2,No,No,Diabetes type 2,High,Gambia,2 hours,63,Banana,"['Potassium', 'Carbohydrates']"
+66,F,High,Driver,Osteoporosis,No,No,Osteoporosis,Medium,Liberia,5 hours,116,Rice,['Carbohydrates']
+54,M,High,Retired,None,Yes,No,Hypertension,Low,Benin,More than 5 hours,15,Bluberries,['Antioxidants']
+62,F,Middle,Doctor,Stroke,No,Yes,Stroke,Medium,Senegal,5 hours,18,Chocolate,['Sugar']
+47,M,High,Doctor,Diabetes type 2,No,Yes,Hypertension,Low,Sierra Leone,2 hours,60,Banana,"['Potassium', 'Carbohydrates']"
+20,F,High,Engineer,Respiratory problems,Yes,No,Stroke,Low,Liberia,5 hours,109,Tomatoes,"['Potassium', 'Vitamin C']"
+62,F,High,Teacher,Stroke,Yes,No,Respiratory problems,High,Guinea-Bissau,5 hours,9,Garlic,['Antioxidants']
+53,M,High,Doctor,Hypertension,Yes,No,Stroke,Low,Guinea,More than 5 hours,19,Bread,['Carbohydrates']
+41,F,Low,Teacher,Diabetes type 2,Yes,Yes,Diabetes type 2,Medium,Ivory Cost,5 hours,110,Lean beef,"['Protein', 'Iron']"
+28,F,High,Retired,Stroke,Yes,No,Asthma,Low,Liberia,5 hours,6,Rice,['Carbohydrates']
+37,M,Low,Retired,Osteoporosis,No,Yes,Diabetes type 2,Medium,Ghana,More than 5 hours,127,Cucumber,['Vitamin K']
+39,F,Middle,Engineer,Osteoporosis,No,No,Stroke,High,Gambia,More than 5 hours,13,Spinach,"['Iron', 'Fiber']"
+51,M,High,Engineer,Hypertension,Yes,No,Stroke,Medium,Ghana,5 hours,136,Rice,['Carbohydrates']
+54,M,Low,Teacher,Diabetes type 2,No,No,Obesity,High,Ivory Cost,2 hours,94,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+12,M,High,Teacher,Asthma,No,No,Respiratory problems,Medium,Nigeria,More than 5 hours,7,Spinach,"['Iron', 'Fiber']"
+9,M,Low,Doctor,Diabetes type 2,No,No,Obesity,Low,Togo,5 hours,163,Tomatoes,"['Potassium', 'Vitamin C']"
+51,M,Low,Doctor,Respiratory problems,Yes,Yes,Asthma,Medium,Sierra Leone,More than 5 hours,42,Chicken,['Protein']
+46,M,Low,Retired,Asthma,No,No,Hypertension,High,Niger,More than 5 hours,3,Bluberries,['Antioxidants']
+27,F,Middle,Doctor,Diabetes type 2,Yes,Yes,Diabetes type 2,High,Senegal,5 hours,56,Rice,['Carbohydrates']
+54,F,Middle,Doctor,Diabetes type 2,No,No,None,High,Niger,2 hours,151,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+43,F,High,Engineer,Arthritis,No,Yes,Arthritis,High,Liberia,5 hours,109,Lean beef,"['Protein', 'Iron']"
+66,F,Middle,Driver,Stroke,Yes,No,Hypertension,Low,Cape Verde,More than 5 hours,161,Lean beef,"['Protein', 'Iron']"
+64,M,Low,Driver,Obesity,Yes,No,Arthritis,Low,Mali,More than 5 hours,138,Lean beef,"['Protein', 'Iron']"
+74,F,Middle,Teacher,Hypertension,Yes,No,Stroke,Low,Ghana,More than 5 hours,95,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+37,F,Middle,Driver,Respiratory problems,Yes,Yes,None,Medium,Mali,More than 5 hours,117,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+9,M,Middle,Engineer,Diabetes type 2,Yes,Yes,Arthritis,Medium,Senegal,5 hours,101,Cucumber,['Vitamin K']
+26,M,Low,Developer,Arthritis,No,No,None,High,Mali,5 hours,17,Cucumber,['Vitamin K']
+6,F,Middle,Engineer,Obesity,Yes,No,Arthritis,Low,Ghana,2 hours,104,Chia seeds,"['Fiber', 'Magnesium', 'Manganese', 'Calcium']"
+39,F,Middle,Engineer,Diabetes type 2,No,Yes,Arthritis,High,Togo,More than 5 hours,46,Banana,"['Potassium', 'Carbohydrates']"
+43,F,High,Retired,Osteoporosis,No,Yes,Arthritis,Low,Gambia,More than 5 hours,124,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+70,F,Middle,Doctor,Hypertension,Yes,No,Hypertension,High,Gambia,More than 5 hours,40,Strawberries,"['Vitamin C', 'Fiber', 'Manganese']"
+48,M,Low,Developer,Respiratory problems,No,Yes,Diabetes type 2,High,Ghana,More than 5 hours,163,Cucumber,['Vitamin K']
+25,M,Middle,Retired,Diabetes type 2,No,Yes,Arthritis,Medium,Togo,5 hours,15,Lean beef,"['Protein', 'Iron']"
+32,M,Low,Teacher,Hypertension,Yes,No,Arthritis,Medium,Mali,5 hours,81,Carrot,"['Vitamin A', 'Fiber']"
+58,M,Low,Engineer,Asthma,Yes,No,Arthritis,Low,Nigeria,2 hours,26,Cheese,"['Calcium', 'Protein']"
+23,F,High,Teacher,Asthma,No,Yes,None,High,Sierra Leone,2 hours,112,Rice,['Carbohydrates']
+37,F,Middle,Developer,Arthritis,No,Yes,Asthma,Low,Ghana,More than 5 hours,97,Tomatoes,"['Potassium', 'Vitamin C']"
+28,M,Low,Engineer,Hypertension,Yes,No,Arthritis,High,Nigeria,More than 5 hours,158,Carrot,"['Vitamin A', 'Fiber']"
+14,F,Low,Driver,Diabetes type 2,No,No,Diabetes type 2,Medium,Gambia,More than 5 hours,73,Apple,"['Vitamin C', 'Fiber']"
